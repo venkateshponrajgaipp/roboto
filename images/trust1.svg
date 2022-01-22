@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="102" viewBox="0 0 90 102">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#16becf"/>
+      <stop offset="1" stop-color="#3fffac"/>
+    </linearGradient>
+  </defs>
+  <g id="trust" transform="translate(-1757 -2358)">
+    <path id="Path_1820" data-name="Path 1820" d="M84.1,43.758l0,0A11.781,11.781,0,0,1,90,53.951V94.606a11.778,11.778,0,0,1-6.032,10.265l-33.117,18.6a11.961,11.961,0,0,1-11.709,0L6.03,104.871A11.78,11.78,0,0,1,0,94.607V53.953A11.782,11.782,0,0,1,5.9,43.76L39,24.6a11.975,11.975,0,0,1,11.973,0L84.1,43.76Z" transform="translate(1757 2335)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <path id="trust-2" data-name="trust" d="M11.183,6.386V23.815m24.4-17.429V23.815M14.669,2.9H32.1M14.669,27.3H32.1M16.412,49.958l1.743-1.743,12.723-1.569A5.89,5.89,0,0,0,32.969,45.6L43.6,34.969a2.329,2.329,0,0,0,0-3.486h0a2.329,2.329,0,0,0-3.486,0l-10.98,8.889m-10.98.871h8.714a3.5,3.5,0,0,0,3.486-3.486h0a1.647,1.647,0,0,0-1.743-1.743H15.192m0,0a9.044,9.044,0,0,0-9.063,8.714L.9,49.958" transform="translate(1779.6 2382.6)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,147 @@
+#sect-1{
+            border-radius: 56px;
+            padding: 2px 30px 40px;
+            min-height: 221px;
+            width: 97%;
+        }
+        #sect-1 h4 {
+            text-align: left;
+            margin-top: 30px;
+            color: #0799a8;
+        }
+        #sect-1 h5 {
+            text-align: left;
+            margin-top: 30px;
+            color: #0799a8;
+            font-size:15px;
+        }
+        #sect-2{
+            border-radius: 56px;
+            padding: 2px 16px 40px;
+            min-height: 221px;
+            width: 81%;
+        }
+        #sect-2 h4 {
+            text-align: left;
+            margin-top: 30px;
+            color: #0799a8;
+        }
+        #sect-2 h5 {
+            text-align: left;
+            margin-top: 30px;
+            color: #0799a8;
+            font-size:15px;
+        }
+        #spacer-right {
+            margin-left: 19%;
+        }
+        #sect-3{
+            background: #25c2d2;
+            min-height: 270px;
+        }
+        #sect-3 h5, h6{
+            color: #ffff
+        }
+        #btn-sec-3{
+            border: 1px solid #ffff;
+            border-radius:0px;
+            color: #ffff;
+            background-image: unset;
+        }
+        #sect-4 h1{
+            color: #25c2d2;
+        }
+        #sect-5 h4{
+            text-align: center;
+        }
+        .blogSec .cardBlocks h4:before{
+            left: 102px;
+        }
+        #rdm {
+            width: 44%;
+            color: #ffff;
+            border-radius: 10px;
+        }
+
+        
+.tabs {
+  max-width: 60rem;
+  display: flex;
+}
+.tabs > ul {
+  list-style-type: none;
+  padding: 19px;
+}
+.tabs > ul li {
+  display: block;
+  text-align: center;
+}
+.tabs > ul li a {
+  display: block;
+  text-decoration: none;
+  background: #ffff;
+  padding: 2rem 1.5rem;
+  color: #16becf;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid #16becf;
+}
+.tabs > ul li a.active {
+  background: #16becf;
+  color: #ffff;
+}
+.tabs > ul li a:hover:not(.active) {
+  color: #16becf;
+}
+.tabs section {
+  background: transparent;
+  padding: 1.5rem 2.5rem;
+  display: none;
+}
+.tabs section.active {
+  display: block;
+}
+.servicesBlocks ul {
+    position: relative;
+}
+.servicesBlocks ul li{
+    position: relative;
+    margin-bottom: 35px;
+    padding-left: 29px;
+}
+.servicesBlocks ul li a {
+    color: #1A1B1D;
+}
+.servicesBlocks ul::before{
+    content: "";
+    position: absolute;
+    border-left: 1px solid #0799A8;
+    left: 4px;
+    top: 8px;
+    height: calc(100% - 20px);
+}
+.servicesBlocks ul li::before {
+    content: "";
+    position: absolute;
+    background-color: #0799A8;
+    width: 9px;
+    height: 9px;
+    left: 0;
+    top: 7px;
+    border-radius: 50%;
+}
+#lis{
+    margin-top: -169%;
+    margin-left: 258%;
+}
+@media (max-width: 800px){
+	#lis{
+		margin-top: 0;
+    margin-left: 0;
+	}
+	#spacer-right{
+		maargin-left: 0;
+	}
+	#sect-2{
+		width: unset;
+	}
+}

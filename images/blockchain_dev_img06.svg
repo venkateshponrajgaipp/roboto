@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="149.151" height="149.151" viewBox="0 0 149.151 149.151">
+  <defs>
+    <filter id="Path_25636" x="0" y="0" width="149.151" height="149.151" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_6569" data-name="Group 6569" transform="translate(-19.249 -14.041)">
+    <g transform="matrix(1, 0, 0, 1, 19.25, 14.04)" filter="url(#Path_25636)">
+      <path id="Path_25636-2" data-name="Path 25636" d="M713.575,427.151A44.575,44.575,0,1,0,669,382.575,44.576,44.576,0,0,0,713.575,427.151Z" transform="translate(-639 -311)" fill="#fff"/>
+    </g>
+    <path id="Stellar_XLM_2_" data-name="Stellar (XLM) (2)" d="M99.747,149.5l-6.269,3.214-30.288,15.4a15.8,15.8,0,0,1-.157-2.351,18.1,18.1,0,0,1,26.882-15.751l3.6-1.842.549-.274A22.054,22.054,0,0,0,59.08,165.76h0c0,.549.039,1.136.078,1.685a4.037,4.037,0,0,1-2.195,3.879l-1.881.98v4.506l5.564-2.861,1.8-.9,1.764-.9,31.93-16.262,3.6-1.842,7.406-3.761v-4.506Zm7.367,5.25L65.97,175.673l-3.6,1.842L55,181.277v4.506l7.327-3.722,6.269-3.214,30.328-15.438a15.975,15.975,0,0,1,.157,2.391,18.111,18.111,0,0,1-18.063,18.024,17.853,17.853,0,0,1-8.817-2.312l-.235.118-3.879,2A22.084,22.084,0,0,0,103.12,165.8c0-.549-.039-1.136-.078-1.685a4.07,4.07,0,0,1,2.155-3.879l1.881-.98Z" transform="translate(12.717 -81.115)"/>
+  </g>
+</svg>

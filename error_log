@@ -1,0 +1,17 @@
+[24-May-2021 14:56:13 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u0oj97igoejv/public_html/db.php on line 8
+[24-May-2021 14:56:57 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u0oj97igoejv/public_html/db.php on line 8
+[24-May-2021 14:57:41 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u0oj97igoejv/public_html/db.php on line 8
+[24-May-2021 14:58:28 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u0oj97igoejv/public_html/db.php on line 8
+[24-May-2021 14:59:03 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u0oj97igoejv/public_html/db.php on line 8
+[24-May-2021 14:59:10 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u0oj97igoejv/public_html/db.php on line 8
+[20-Oct-2021 10:57:03 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[02-Dec-2021 09:41:41 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[02-Dec-2021 09:45:18 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[02-Dec-2021 09:57:09 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[02-Dec-2021 10:06:50 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[14-Dec-2021 07:30:16 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[14-Dec-2021 07:30:37 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[14-Dec-2021 07:35:14 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[14-Dec-2021 07:52:56 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[14-Dec-2021 08:00:28 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8
+[15-Dec-2021 09:23:43 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/db.php on line 8

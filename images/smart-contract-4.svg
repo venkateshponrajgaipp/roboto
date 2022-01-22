@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.553" height="51.69" viewBox="0 0 38.553 51.69">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_651" data-name="Path 651" d="M11.4,49.781A17.934,17.934,0,0,0,29.176,32V11L11.4,1.3Z" transform="translate(-11.4 -1.3)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="security--shield_2_" transform="translate(1.1 0.409)">
+    <g id="Group_2951" data-name="Group 2951" transform="translate(18.176 1.3)">
+      <g id="Group_2944" data-name="Group 2944">
+        <g id="Group_2943" data-name="Group 2943" clip-path="url(#clip-path)">
+          <line id="Line_28" data-name="Line 28" x2="19.392" y2="10.504" transform="translate(-1.616 8.888)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Group_2946" data-name="Group 2946">
+        <g id="Group_2945" data-name="Group 2945" clip-path="url(#clip-path)">
+          <line id="Line_29" data-name="Line 29" x2="19.392" y2="10.666" transform="translate(-1.616 18.423)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Group_2948" data-name="Group 2948">
+        <g id="Group_2947" data-name="Group 2947" clip-path="url(#clip-path)">
+          <line id="Line_30" data-name="Line 30" x2="17.776" y2="9.696" transform="translate(-1.616 28.281)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+      <g id="Group_2950" data-name="Group 2950">
+        <g id="Group_2949" data-name="Group 2949" clip-path="url(#clip-path)">
+          <line id="Line_31" data-name="Line 31" x2="12.282" y2="6.787" transform="translate(-1.616 37.977)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_655" data-name="Path 655" d="M18.176,1.3.4,11V32A17.934,17.934,0,0,0,18.176,49.781,17.934,17.934,0,0,0,35.953,32V11Z" transform="translate(0 0)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

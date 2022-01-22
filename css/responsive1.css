@@ -1,0 +1,320 @@
+@media (max-width: 560px) {
+    body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+    .navbar-nav {
+        display: inline-flex;
+    }
+    .navbar-brand img {
+        height: auto;
+        max-width: 100px;
+    }
+    .heroSec {
+        height: auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        padding-top: 160px;
+        margin: auto;
+        
+    }
+    .sideTumb {
+        transform: rotate(90deg);
+    } 
+    .midContent > div > img {
+        width: 100%;
+    }
+    .cubeDivLg {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .heroContent span:nth-child(2) {
+        /* font-size: 80px; */
+        line-height: 80px;
+    }
+    .heroContent span:nth-child(1) {
+        font-size: 44px;
+        font-weight: 400;
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .heroContent span:nth-child(3) {
+        font-size: 40px;
+        font-weight: 600;
+        position: relative;
+        left: 0;
+        top: auto;
+    }
+    .heroSec video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: unset;
+        opacity: 0.1;
+        -webkit-filter: invert(1);
+        filter: invert(1);
+    }
+    .sy{
+        margin-top: 8em;
+    }
+    .sideTumb  {
+        display: none;
+    }
+    .cardBlocks .bookBtn {
+        display: block;
+        margin: auto;
+        text-align: center;
+        position: absolute;
+        bottom: 40px;
+        left: 0;
+        right: 0;
+    }
+    .cardBlocks {
+        padding: 60px 30px 40px;
+        min-height: 300px;
+        margin-bottom: 60px;
+    }
+    .servicesThumb img {
+        display: none;
+    }
+    .solutionsSec .media .cubeIc {
+        display: block;
+        margin: auto !important;
+    }
+    .solutionsSec .media-body {
+        text-align: center;
+    }
+    .servicesSec .col-lg-4:first-child .topSpace {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+    .servicesSec .col-lg-4:nth-child(2) .servicesBlocks {
+        padding-left: 20px !important;
+    }
+    .servicesSec .col-lg-4:nth-child(2) .topSpace {
+        margin-top: 0;
+    }
+    .servicesSec .col-lg-4:last-child {
+        padding-left: 40px !important;
+    }
+    .servicesSec .col-lg-4:last-child .topSpace {
+        margin-top: 20px;
+    }
+    .sectionTit h1 {
+        font-size: 32px;
+    }
+    .row.spacer-120 {
+        margin-top: 80px;
+    }
+    .cardBlocks::before {
+        margin-left: -48px;
+    }
+    .videoSec {
+        min-height: auto;
+        padding: 60px 0;
+    }
+    .getInActionSec .headTit h1 {
+        font-size: 40px;
+    }
+    .getInActionSec .headTit p {
+        font-size: 24px;
+    }
+    .getInForm {
+        margin-top: 30px;
+    }
+    footer {
+        background: #F3F3F3;
+        padding: 60px 20px;
+    }
+    .careerSec .midContent h2 {
+        font-size: 24px;
+    }
+    .midContent h3 {
+        font-size: 16px;
+    }
+    section {
+        padding: 40px 0;
+    }
+}
+
+@media (min-width: 560px) and (max-width: 768px) {}
+
+@media (min-width: 768px) and (max-width: 1100px) {
+    .tuy{
+        display: flex;
+    }
+    .st{
+        margin-top: 82px;
+    }
+    .sens{
+        margin-top: 164px;
+        font-size: 3em;
+    }
+    .sy{
+        margin-top: 2em;
+    }
+    .para1{
+        margin-left: 4em;
+    }
+    #part7carimg1 {
+        margin-left: -14%;
+        width: 24rem;
+    }
+    .butbut {
+        top: 794px !important;
+        margin-left: 452px !important;
+    }
+    .cryptocaritem {
+        height: 894px !important;
+    }
+    .tiv{
+        width: 8rem;
+        margin-left: -3rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbarPrimary {
+        padding-top: 20px !important;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    
+  
+}
+
+@media screen and (min-width: 1600px) {
+    .heroSec .container-fluid  {
+        padding-left: 120px !important;
+        padding-right: 120px !important;
+    }
+    .heroContent {
+        position: relative;
+        font-size: 200px;
+        line-height: 180px;
+        font-weight: 800;
+        margin-top: -200px;
+    }    
+    .heroContent h1 {
+        color: #1A1B1D;
+        font-size: 200px;
+        position: absolute;
+        top: -260px;
+        left: 0;
+        max-width: 50%;
+    }
+    .heroContent span:first-child {
+        font-size: 50px;
+        font-weight: 400;
+        position: absolute;
+        left: 0;
+        top: -64px;
+    }
+    /* .heroContent span:nth-child(2) {
+        font-size: 200px;
+        line-height: 180px;
+        font-weight: 800;
+    } */
+    .heroContent span:last-child {
+        font-size: 94px;
+        font-weight: 600;
+        position: absolute;
+        left: 0;
+        top: 312px;
+    }
+    
+}
+@media only screen and (min-width: 1400px) {
+    body {
+        /* font-size: 16px; */
+    }
+    /* .cardBlocks {
+        max-width: 90%;
+    } */
+
+  }
+@media screen and (min-width: 1440px) {
+    .sens1 {
+        font-size: 4em !important;
+        margin-top: 170px;
+}
+.st {
+    margin-top: 20px !important;
+    font-size: 4em !important;
+}
+.butbut {
+    top: 554px !important;
+    margin-left: 552px !important;
+}
+.cryptocaritem {
+    height: 694px !important;
+}
+.para1{
+    margin-left: 15em !important;
+}
+}
+
+
+
+
+
+
+
+
+#stage{
+    height:100vh;
+    width: 100%;
+    background: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .spacer{
+    width:100%;
+    height:100vh;
+    background:#5386b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    margin: 4px;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  .box1 {
+    background-color: #84c186;
+  }
+  .box2 {
+    background-color: #8b6c4c;
+  }
+  .box3 {
+    background-color: #39a3ee;
+  }
+  .box4 {
+    background-color: #ef9144;
+  }
+  .box5 {
+    background-color: #cd58eb;
+  }
+  .box6 {
+    background-color: #b84b4b;
+  }

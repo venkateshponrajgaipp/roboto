@@ -1,0 +1,286 @@
+
+.ctaBtn {
+    background-image: linear-gradient(120deg, #16BECF 0%, #3FFFAC 100%);
+    color: #1A1B1D;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 20px;
+    padding: 6px 16px !important;
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+}
+
+.ctaBtn:hover {
+    background-image: linear-gradient(120deg, #16BECF 0%, #3FFFAC 100%);
+    color: #fff;
+}
+
+.navbarPrimary .container-fluid {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.navbar-brand img {
+    height: 60px;
+}
+
+.navbarPrimary {
+    width: 100%;
+    z-index: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: ease 0.3s;
+    -webkit-transition: ease 0.3s;
+}
+
+.navbarPrimary li a {
+    color: #1A1B1D;
+    text-align: center;
+    position: relative;
+}
+
+.navbarPrimary li a li a:hover {
+    color: #16BECF;
+}
+
+
+/* nav.navbar.stickyNav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 16px;
+  background-color: #f5f5f5;
+} */
+
+.navbarPrimary .navMenuList li a:hover:after {
+    bottom: 0px;
+    opacity: 1;
+}
+
+.btn {
+    transition: ease 0.2s;
+    -webkit-transition: ease 0.2s;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* Sidemenu styles */
+
+.sidebar {
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    z-index: 1001;
+    top: 0;
+    left: 0;
+    background: #1a1b1d;
+    overflow-x: hidden;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-left: -300px;
+}
+
+.sidebar.overlay {
+    width: 300px;
+}
+
+.sidebar-content {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.sidebar-content .sideSubLink {
+    list-style: none;
+}
+
+.sidebar-content .sideSubLink li a {
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.sidebar-content .sideSubLink {
+    display: none;
+}
+
+.sidebar-content .sideSubLink li {
+    margin-bottom: 4px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    padding-left: 30px;
+    font-size: 16px;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
+    color: #16BECF;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 60px;
+    line-height: 36px;
+}
+
+.sidebar-content .card {
+    background: transparent;
+}
+
+.sidebar-content .card li {
+    margin-bottom: 20px;
+}
+
+.sidebar-content .card a {
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.subLink {
+    list-style: none;
+}
+
+.subLink a {
+    font-size: 14px !important;
+}
+.vil{
+    justify-content: space-between;
+}
+.fgv{
+    margin-top: 88px;
+}
+
+
+@media only screen and (min-width: 1440px) and (max-width: 1800px){
+.part7par{
+    margin-left: 22rem !important;
+    text-align: justify;
+    color: black !important;
+}
+.gamesec10head1 {
+    font-size: 28px !important;
+    font-weight: 700;
+    margin-left: 274px;
+}
+#lisa1{
+    margin-left: 0px !important;
+    font-size: 12px !important;
+}
+.delfi1{
+    margin-left: 0px !important;
+    font-size: 12px !important;
+    margin-top: 0px !important;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1100px){
+    .devmainres {
+        width: 41rem;
+        margin-top: -25rem;
+        margin-left: 24rem !important;
+    }
+    .devdappheading {
+        color: black;
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .devhead2 {
+        color: black;
+        font-weight: bold;
+        font-size: 48px;
+    }
+    .devhead3 {
+        color: #16BECF;
+        font-size: 48px;
+    }
+    .devmaincenterimg {
+        margin-left: 14rem !important;
+        margin-top: -164px !important;
+    }
+    .devsec {
+        width: 69% !important;
+        margin-left: 114px !important;
+        margin-top: 27px;
+        font-size: 22px !important;
+    }
+    #part7carimg1 {
+        margin-left: -4%;
+        width: 19rem;
+        margin-top: 102px !important;
+    }
+    .part7par {
+        margin-left: 11rem !important;
+        width: 24rem !important;
+        text-align: justify !important;
+        color: black;
+    }
+    .devcarousel {
+        color: #16BECF !important;
+        margin-top: -1% !important;
+        margin-left: 173px !important;
+    }
+    #lisa1{
+        margin-left: -77px !important;
+        font-size: 12px !important;
+    }
+    .delfi1{
+        margin-left: -77px !important;
+        font-size: 12px !important;
+        margin-top: 0px !important;
+    }
+    #carousel-demo .carousel-control-prev, #carousel-demo .carousel-control-next {
+        top: 490px !important;
+        margin-left: 243px !important;
+    }
+    .devemail {
+        width: 4rem;
+        margin-left: 0rem;
+    }
+    .gamesec3head2{
+        margin-top: -19px !important;
+    }
+    .gamesec3img1{
+        margin-top: 160px !important;
+    }
+    .gamesec4head2{
+        margin-top: -19px !important;
+        margin-left: 47px !important;
+    }
+}
+@media screen and (max-width:576px) {
+    .fgv {
+        margin-top: -24px !important;
+    }
+    .part7par{
+        color: black !important;
+    }
+    #lisa1{
+        margin-left: -77px !important;
+        font-size: 12px !important;
+        margin-top: 12.5rem !important;
+    }
+    .delfi1{
+        margin-left: -77px !important;
+        font-size: 12px !important;
+        margin-top: 0px !important;
+    }
+    #carousel-demo .carousel-control-prev, #carousel-demo .carousel-control-next {
+        top: 387px !important;
+    }
+}

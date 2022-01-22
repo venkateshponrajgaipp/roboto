@@ -1,0 +1,260 @@
+@media screen and (min-width:320px) and (max-width:576px) {
+    .vil{
+        display: inline-flex;
+    }
+    .tiu{
+        margin-top: 80px !important;
+    }
+    .nuy{
+        margin-top: 12em !important;
+    }
+    .hty{
+        margin-top: 0px;
+        top: 0% !important;
+    }
+    .cfr{
+        padding: 0px 0 20px !important;
+    }
+    .ftb{
+        margin-top: -88px !important;
+    }
+    .mima
+    {
+        margin-top:-5rem;
+    }
+    .choosesession
+    {
+        margin-top:-7rem !important;
+    }
+    .cubeEnterprise
+    {
+        margin-top:7rem !important;
+    }
+    .cardBlocks {
+        padding: 95px 30px 40px !important;
+    }
+    .lovb{
+        font-size: 48px !important;
+        margin-top: 0em !important;
+        color: black !important;
+    }
+    .heroContent h1{
+        top: 40% !important;
+        font-size: 20px !important;
+        margin-left: 50px !important;
+    }
+    .heroContent span:nth-child(3) {
+        top: 90px !important;
+    }
+    .heroContent{
+        margin-bottom: 150px;
+    }
+    .htf{
+        margin-top: -300px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1100px) {
+    .mew{
+        margin-top: 5em !important;
+    }
+    .hns{
+        bottom: -302px !important;
+    }
+    .jem{
+        margin-top: 19em;
+    }
+    .cfr{
+        padding: 423px 0 80px !important;
+    }
+    .fr{
+        padding: 0px !important;
+    }
+    .mima{
+        padding: 0px !important;
+    }
+  
+    .careerSec .sideTumb img {
+        min-width: 157px;
+    }
+    .lovb{
+        font-size: 48px !important;
+        margin-top: 0em !important;
+        color: black !important;
+    }
+    .heroContent span:nth-child(3) {
+        top: 170px !important;
+    }
+}
+@media screen and (min-width:768px) and (max-width:900px) {
+    .vil{
+        display: inline-flex;
+        margin-right: -78px;
+    }
+    .tiu{
+        margin-top: 80px;
+    }
+    .heroContent h1 {
+        font-size: 10px !important;
+    }
+    .nuy{
+        margin-top: -89px !important;
+    }
+    .hns{
+        bottom: -55px !important;
+    }
+    .jem{
+        margin-top: 88px !important;
+    }
+    .cfr{
+        padding: 215px 0 80px;
+    }
+    .careerSec .sideTumb img {
+        min-width: 105px;
+    }
+    .servicesBlocks 
+        .cubeIc {
+          margin-left: -59px;
+        }
+        .lovb{
+            font-size: 48px !important;
+            margin-top: 2em;
+            color: black !important;
+        }
+    
+}
+@media screen and (min-width: 1300px) {
+    .lovb{
+        font-size: 68px !important;
+        margin-top: 50px !important;
+        color: black !important;
+    }
+    .heroContent span:nth-child(3) {
+        top: 277px !important;
+    }
+    .tiu{
+        font-size: 68px !important;
+    }
+}
+@media screen and  (min-width:1440px) and (max-width:1900px) {
+    .roboindexsec1img{
+        margin-top: 5rem;
+        width: 28rem;
+        margin-left: 6rem;
+    }
+    .heroContent{
+        margin-top: -9rem !important;
+    }
+    .roboindexhead2{
+        font-size:62px !important;
+    }
+}
+@media screen and  (min-width:1200px) and (max-width:1390px){
+    .roboindexsec1img{
+        margin-top: 5rem;
+        width: 28rem;
+        margin-left: 6rem;
+    }
+    .heroContent{
+        margin-top: -9rem !important;
+    }
+    .roboindexhead2{
+        font-size:62px !important;
+    }
+}
+
+@media screen and  (min-width:768px) and (max-width:900px){
+    .roboindexsec1img{
+        margin-top: 5rem;
+        width: 28rem;
+        margin-left: -1rem;
+    }
+    .heroContent{
+        margin-top: -9rem !important;
+    }
+    .roboindexhead2{
+        font-size:49px !important;
+    }
+}
+
+@media screen and (max-width:576px)
+{
+    .roboindexsec1img{
+        margin-top: -7rem;
+        width: 28rem;
+        margin-left: -1rem;
+    }
+    .heroContent{
+        margin-top: -9rem !important;
+    }
+    .roboindexhead2{
+        font-size:49px !important;
+    }
+    .roboindexcube{
+        margin-top: 3rem !important;
+    }
+    .sectionTit {
+        text-align: center;
+        padding-top: 139px !important;
+    }
+    .sectionAnim .c-line-dot .c-line-dot__line {
+        content: " ";
+        position: absolute;
+        left: calc(50% - 2px);
+        top: 74px;
+        width: 2px;
+        height: 41% !important;
+        border: 2px dashed #16BECF;
+    }
+    .heroSec {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        overflow: visible !important;
+        padding-top: 230px;
+        margin: auto;
+        text-align: center;
+    }
+    .roboindexoutimg{
+        margin-top: 0rem !important;
+        margin-left: -39px;
+        position: absolute;
+    }
+    .text-xs-center{
+        text-align: center !important;
+    }
+    .mw-xs-100{
+        max-width: 100% !important;
+    }
+    .px-xs-0{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .mx-xs-auto{
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .mb-xs-4{
+        margin-bottom: 1.5rem!important;
+    } 
+    .d-xs-block{
+        display: block;
+    }  
+    .getInForm{
+        padding:20px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .srt{
+        height: 50vh !important;
+    }
+    .servicesSec .col-lg-4:last-child, .servicesSec .col-lg-4:nth-child(2) .servicesBlocks {
+        padding-left: 0px !important;
+    }  
+    .mt-sm-300{
+        margin-top: 300px !important;
+    }
+    .mt-sm-235{
+        margin-top: 235px !important;
+    }
+}

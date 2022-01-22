@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119.769" height="98.48" viewBox="0 0 119.769 98.48">
+  <g id="Group_4010" data-name="Group 4010" transform="translate(-752.96 -1534.199)">
+    <g id="btc" transform="translate(752.96 1534.199)" opacity="0.26">
+      <ellipse id="Oval" cx="48.689" cy="48.99" rx="48.689" ry="48.99" transform="translate(0 0)" fill="#21bdca"/>
+    </g>
+    <g id="money-coins" transform="translate(791.275 1551.224)">
+      <path id="Path_18894" data-name="Path 18894" d="M37.73,50.472H2.375V2.375H73.084V24.706" transform="translate(0)" fill="none" stroke="#25373f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_18895" data-name="Path 18895" d="M48.71,37.492c8.538,0,15.46-3.076,15.46-6.871S57.248,23.75,48.71,23.75s-15.46,3.076-15.46,6.871S40.172,37.492,48.71,37.492Z" transform="translate(15.786 10.544)" fill="none" stroke="#25373f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_18896" data-name="Path 18896" d="M33.25,28.5V38.806c0,3.795,6.921,6.871,15.46,6.871s15.46-3.076,15.46-6.871V28.5" transform="translate(15.786 12.959)" fill="none" stroke="#25373f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_18897" data-name="Path 18897" d="M33.25,35.625V45.931c0,3.795,6.921,6.871,15.46,6.871s15.46-3.076,15.46-6.871V35.625" transform="translate(15.786 16.846)" fill="none" stroke="#25373f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_18898" data-name="Path 18898" d="M33.25,42.75V53.056c0,3.795,6.921,6.871,15.46,6.871s15.46-3.076,15.46-6.871V42.75" transform="translate(15.786 20.028)" fill="none" stroke="#25373f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Path_18899" data-name="Path 18899" d="M28.246,27.992a6.871,6.871,0,1,0-6.871-6.871A6.871,6.871,0,0,0,28.246,27.992Z" transform="translate(9.372 5.858)" fill="none" stroke="#25373f" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

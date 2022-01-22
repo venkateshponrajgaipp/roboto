@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.572" height="56.143" viewBox="0 0 54.572 56.143">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f6ff"/>
+      <stop offset="1" stop-color="#dae4ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b3b7f4"/>
+      <stop offset="1" stop-color="#a7bffb"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon_Pay" data-name="Icon Pay" transform="translate(-0.145 -0.156)">
+    <path id="Path_101" data-name="Path 101" d="M0,6.856H5.746C7.715,6.856,18.279,0,22.8,0S46.416,7.4,48.192,9.1s2.609,4.452-5,3.5S28.054,10,24.659,10.8,7,19.208,4.318,19.208H0Z" transform="translate(6.085 35.085) rotate(-45)" fill="#757ae9"/>
+    <g id="Group_44" data-name="Group 44" transform="translate(0.145 42.722) rotate(-45)">
+      <rect id="Rectangle_Copy_117" data-name="Rectangle Copy 117" width="13.2" height="15.6" transform="translate(0 3.6)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle" width="9.6" height="19.2" fill="url(#linear-gradient-2)"/>
+    </g>
+    <rect id="Rectangle-2" data-name="Rectangle" width="24" height="38.4" rx="2.4" transform="translate(30.717 5)" fill="#00d4b0"/>
+    <rect id="Rectangle-3" data-name="Rectangle" width="4.8" height="38.4" transform="translate(44.6 5)" fill="#4c50b1"/>
+    <path id="Path_102" data-name="Path 102" d="M0,8.885S3.419,13.26,8.622,13.26,15.649,8.314,19.2,7.677,30.96,6.008,29.9,3.012,23.514-.562,19.2.477,0,8.885,0,8.885Z" transform="translate(15.93 39.839) rotate(-45)" fill="#757ae9"/>
+  </g>
+</svg>

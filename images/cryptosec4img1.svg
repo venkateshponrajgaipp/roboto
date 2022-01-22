@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="167" height="167" viewBox="0 0 167 167">
+  <defs>
+    <filter id="Ellipse_73" x="0" y="0" width="167" height="167" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_01" data-name="01" transform="translate(-14466 980)">
+    <g transform="matrix(1, 0, 0, 1, 14466, -980)" filter="url(#Ellipse_73)">
+      <circle id="Ellipse_73-2" data-name="Ellipse 73" cx="68.5" cy="68.5" r="68.5" transform="translate(15 12)" fill="#fff"/>
+    </g>
+    <path id="trust" d="M14.375,7.468V30.307M46.348,7.468V30.307M18.943,2.9H41.784M18.943,34.873H41.784M21.227,64.564l2.284-2.284,16.672-2.056a7.718,7.718,0,0,0,2.74-1.371L56.853,44.923a3.052,3.052,0,0,0,0-4.568h0a3.052,3.052,0,0,0-4.568,0L37.9,52M23.509,53.144H34.928A4.586,4.586,0,0,0,39.5,48.576h0a2.158,2.158,0,0,0-2.284-2.284H19.628m0,0A11.851,11.851,0,0,0,7.752,57.711L.9,64.564" transform="translate(14520.6 -933.4)" fill="none" stroke="#16becf" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

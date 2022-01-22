@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="141.196" viewBox="0 0 80 141.196">
+  <g id="Group_5674" data-name="Group 5674" transform="translate(-78 -36.804)">
+    <g id="Solidity_logo" transform="translate(86.906 36.804)">
+      <path id="Path_18849" data-name="Path 18849" d="M44.617,0,29.737,26.447H0L14.869,0H44.617" opacity="0.45"/>
+      <path id="Path_18850" data-name="Path 18850" d="M145.469,26.447h29.749L160.349,0H130.6Z" transform="translate(-115.731)" opacity="0.6"/>
+      <path id="Path_18851" data-name="Path 18851" d="M14.869,52.883,29.737,26.447,14.869,0,0,26.447Z" opacity="0.8"/>
+      <path id="Path_18852" data-name="Path 18852" d="M131.9,607.147,146.78,580.7h29.749l-14.88,26.447H131.9" transform="translate(-116.883 -514.588)" opacity="0.45"/>
+      <path id="Path_18853" data-name="Path 18853" d="M31.049,580.7H1.3l14.869,26.447H45.917Z" transform="translate(-1.152 -514.588)" opacity="0.6"/>
+      <path id="Path_18854" data-name="Path 18854" d="M277.469,348.5,262.6,374.936l14.869,26.447,14.88-26.447Z" transform="translate(-232.703 -308.824)" opacity="0.8"/>
+    </g>
+    <text id="Solidity" transform="translate(78 170)" font-size="22" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Solidity</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Game Development- Roboto360</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/developer.css">
+    <link rel="stylesheet" href="./css/robotogame.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/loog-dark.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/loog-dark.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/loog-dark.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- -----owlcarousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/css/uikit.min.css">
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- --end--------- -->
+</head>
+
+<body style="font-family: 'Montserrat', sans-serif;">
+
+      <!-- Header section starts here -->
+      <nav class="navbar navbar-expand-lg sticky-top navbarPrimary">
+        <div class="container-fluid">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu"
+                aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button> -->
+            <div class="collapse navbar-collapse show vil" id="headerMenu">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="navbar-brand p-0" href="javascript:void(0);" id="menuToggler" >
+                            <span class="fas fa-bars"></span> Menu
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="navbar-brand p-0" href="./index.html">
+                            <img src="images/logo-dark.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 navMenuList">
+                    <li class="nav-item">
+                        <a class="nav-link ctaBtn btnGlow rippleAnim scrollLink" href="./contactus.html">Get In Touch</a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="sidebar" class="sidebar">
+        <span><img src="./images/loog-wHITE.SVG" style="margin-left: 25px;margin-top: 24px;" class="img-fluid" alt=""></span>
+
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <div class="sidebar-content">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" href="#">
+                          Services
+                        </a>
+                      </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <ul class="subLink">
+                      <div id="accordion1">
+                      <div class="card">
+                        <li>    <h5 class="mb-0">
+                              <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo1" href="#" aria-expanded="false" aria-controls="collapseTwo1">
+                                  Blockchain Ecosystems
+                              </a>
+                            </h5> </li>
+                          <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion1">
+                            <ul class="subLink">
+                              <li><a href="blockchain_platforms.html">Blockchain Based platforms</a></li>
+                              <li><a href="blockchain_forks.html">Blockchain Forks</a></li>
+                              <li><a href="blockchain.html">Blockchain Nodes</a></li>
+                              <li><a href="cryptocurrency_development.html">Cryptocurrency Development</a></li>
+                              <li><a href="game.html">Game Development</a></li>
+                            </ul>
+                          </div>
+                
+                         
+                          <div class="card">
+                            <li>    <h5 class="mb-0">
+                                  <a class="btn btn-link collapsed" href="./dApps_creation_services.html" data-toggle="collapse" data-target="#collapseSixx6" href="#" aria-expanded="false" aria-controls="collapseSixx6">
+                                    Decentralized Applications
+                                  </a>
+                                </h5> </li>
+                              <div id="collapseSixx6" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion1">
+                                <ul class="subLink">
+                                  <li><a href="decentralized_exchange_development.html">Decentralized Exchanges</a></li>
+                                  <li><a href="defi_app_development_services.html">DeFi Applications</a></li>
+                                  <li><a href="staking_platforms.html">Staking Platforms</a></li>
+                                  <li><a href="cryptocurrency_wallet_development.html">Crypto Wallets</a></li>
+                                  <li><a href="crypto_gaming_dev.html">Crypto Games</a></li>
+                       
+                                </ul>
+                              </div>
+                          <div class="card">
+                            <li>    <h5 class="mb-0">
+                                  <a class="btn btn-link collapsed" href="./smart_contract_dev.html" data-toggle="collapse" data-target="#collapseFivee5" href="#" aria-expanded="false" aria-controls="collapseFivee5">
+                              Smart Contracts
+                                  </a>
+                                </h5> </li>
+                              <div id="collapseFivee5" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion1">
+                                <ul class="subLink">
+                                  <li><a href="smart_contract_dev.html">Smart Contracts</a></li>
+                                  <li><a href="./stablecoin_development.html">Stablecoin Development</a></li>
+                                  <li><a href="./security_audit_dev_services.html">Security Audits</a></li>
+                                  <li><a href="token_distribution_services.html">Token Emission And Distribution</a></li>
+                       
+                                </ul>
+                              </div>
+                      
+                          <div class="card">
+                            <li>    <h5 class="mb-0">
+                                  <a class="btn btn-link collapsed" href="./developertool.html" data-toggle="collapse" data-target="#collapseFourr4" href="#" aria-expanded="false" aria-controls="collapseFourr4">
+                                  Developer Tools
+                                  </a>
+                                </h5> </li>
+                              <div id="collapseFourr4" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion1">
+                                <ul class="subLink">
+                                  <li><a href="./sdk_blockchain_development.html">SDK Blockchain Development</a></li>
+                                  <li><a href="./api_blockchain_dev.html">API Blockchain Development</a></li>
+                                  <li><a href="./online_offline_idec_dev.html">Online Offline IDE Development</a></li>
+                                  <li><a href="./plugin_blockchain_development.html">Plugin Blockchain Development</a></li>
+                       
+                                </ul>
+                              </div>
+                      
+
+                          <div class="card">
+                            <li>    <h5 class="mb-0">
+                                  <a class="btn btn-link collapsed" href="./blockchain_enterprise.html" data-toggle="collapse" data-target="#collapseThreee3" href="#" aria-expanded="false" aria-controls="collapseThreee3">
+                                     Enterprise Solutions
+                                  </a>
+                                </h5> </li>
+                              <div id="collapseThreee3" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion1">
+                                <ul class="subLink">
+                                  <li><a href="governance_systems.html">Governance Systems</a></li>
+                                  <li><a href="./compliance_system_dev.html">Compliance Development Services</a></li>
+                                  <li><a href="./supplychain_development_services.html">Supplychain Development Services</a></li>
+                                  <li><a href="./logistics_blockchain_development.html">Logistics Blockchain Development</a></li>
+                       
+                                </ul>
+                              </div>
+                    
+                          <div class="card">
+                            <li>    <h5 class="mb-0">
+                                  <a class="btn btn-link collapsed" href="blockchain_integration.html" data-toggle="collapse" data-target="#collapseTwo2" href="#" aria-expanded="false" aria-controls="collapseTwo2">
+                                      Blockchain Integration
+                                  </a>
+                                </h5> </li>
+                              <div id="collapseTwo2" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordion1">
+                                <ul class="subLink">
+                                  <li><a href="./centralized_exchange_development.html">Centralized Exchange</a></li>
+                                  <li><a href="./blockchainbased_micropaymentservices.html">Blockchain Based Micropayment Services</a></li>
+                                  <li><a href="./decentralized_marketplace_dev.html">Decentralized Marketplaces</a></li>
+                                  <li><a href="blockchaindevelopment-crmerp.html">CRM/ERP Blockchain Integration</a></li>
+                       
+                                </ul>
+                              </div>
+                          <li><a href="./decentralized_crypto_wallet.html">Decentrtalised Crypto Wallet</a></li>
+                        </div>
+                        </div>
+                      </ul>
+                      
+                    </div>
+                  </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" href="#">
+                        Industries
+                      </a>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <ul class="subLink">
+                            <li><a href="fintech_development_services.html">Fintech</a></li>
+                            <li><a href="regtech_development_services.html">Regtech</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" href="#">
+                        Solutions
+                      </a>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <ul class="subLink">
+                            <li><a href="startup.html">For Startups</a></li>
+                            <li><a href="enterprises.html">For Enterprises</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" href="#">
+                        Technology
+                      </a>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <ul class="subLink">
+                            <li><a href="mobile_app_development.html">Mobile Apps</a></li>
+                            <li><a href="blockchain_app_development.html">Blockchain</a></li>
+                            <li><a href="sales_force_dev.html">Salesforse</a></li>
+                 
+             
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-link" href="./about-roboto360.html">About Us</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-link" href="career.html">Career</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="blogp.html" class="btn btn-link">Blog</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="termsandconditions.html" class="btn btn-link">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="privacy.html" class="btn btn-link">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-link" href="contactus.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header section end here -->
+
+    <!-- start of section1 -->
+    <div class="container-fluid sec1container">
+
+        <div class="row fgv">
+            <div class="col-6  col-xs-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 ms-4 devsec1div">
+                <h1 class="devdappheading mt-0">Decentralized Game</h1>
+
+                <h1 class="devhead2 mt-0">Development</h1>
+                <h2 class="devhead3 mt-0">Services</h2>
+            </div>
+            <div class="col-xs-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                <img class="devmainres" src="./images/banner.svg"><img/>
+            </div>
+        </div>
+
+        <div class="row ms-5 mt-5">
+
+            <div class="col-4 col-xs-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4 devmaincenterimg">
+                <img class="text-center gamesec1img2" src="images/chain.svg">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- end -->
+
+    <!-- start of sec2 -->
+    <div class="devsec text-center">
+        <h1 class="gamesec2head1" style="color: #16BECF;">Why Game Development</h1>
+        <p>Blockchain Technology is likely to drastically disrupt the gaming sector, which is enjoyed by over 2.2 billion people globally. In the current scenario, digital assets in video games, are generally controlled by organisations and are frequently
+            hosted on their servers.</p>
+    </div>
+    <!-- end-------------- -->
+
+    <!-- start of section3 -->
+    <div class="container">
+        <div class="row mb-xxl-5 mb-xl-5 mb-md-5 mb-lg-5">
+            <div class="col-12 col-xxl-5 col-xl-5 col-md-5 col-lg-5">
+                <img src="./images/1 image.svg" class="img-fluid mt-xxl-5 mt-xl-5 mt-lg-5 w-75 ms-xxl-5 ms-xl-5 ms-md-5 ms-lg-5 gamesec3img1">
+            </div>
+            <div class="col-12 col-xxl-7 col-xl-7 col-md-7 col-lg-7 gamesec3col2">
+                <h2 class="gamesec3head1">BlockChain in</h2>
+                <h2 class="gamesec3head2" style="color: #16BECF;">Gaming</h2>
+                <p class="gamesec3p1">The blockchain will allow for the decentralised storage of objects and characters, as well as the creation of an immutable record of ownership, giving players greater control </p>
+                <p class="sec3gamep2 gamesec3p2">Trading in-game virtual assets directly will also be feasible using blockchain, thanks to smart contracts that enable frictionless peer-to-peer transactions in a secure environment </p>
+            <button class="text-white sec3gamebut1" style="background-color: #16BECF;">About Us</button>
+            </div>
+        </div>
+    </div>
+    <!-- -----end------------- -->
+
+
+       <!-- start of section4 -->
+       <div class="container">
+        <div class="row">
+        <div class="col-12 col-xxl-7 col-xl-7 col-md-7 col-lg-7">
+                <h2 class="mt-xxl-4 mt-xl-4 mt-md-4 mt-lg-4 ms-xxl-5 ms-xl-5 ms-lg-5 ms-md-5 mt-4 gamesec4head1">Decentralised</h2>
+                <h2 class="gamesec4head2"  style="color: #16BECF;">Gaming solutions</h2>
+                <p class="ms-xxl-5 ms-xl-5 ms-md-5 ms-lg-5">A mobile-friendly website that provides decentralised gaming solutions via DApps in exchange for cryptocurrency. A programme that runs the game on the Ethereum Blockchain network, </p>
+                <p class="ms-xxl-5 ms-xl-5 ms-md-5 ms-lg-5 sec4gamep2">Allowing groups to communicate in real-time. The actual potentials of in-game blockchain technology are revealed in this platform app. </p>
+            <button class="ms-xxl-5 ms-xl-5 ms-md-5 ms-lg-5 text-white sec3gamebut1" style="background-color: #16BECF;">About Us</button>
+            </div>
+            <div class="col-12 col-xxl-5 col-xl-5 col-md-5 col-lg-5">
+                <img src="./images/gamesec4img.svg" class="img-fluid w-75 mt-xxl-4 mt-xl-4 gamesec3img1 mt-lg-4 ">
+            </div>
+        </div>
+    </div>
+    <!-- -----end------------- -->
+
+    <!-- start of section5------------------- -->
+    
+     <div class="container">
+ <h1 class="gamesec5h1 text-center mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mb-xxl-5 mb-xl-5 mb-md-5 mb-lg-5" style="color: #16BECF;">Blockchain Game Development Services</h1>
+         <div class="row">
+             <div class="col-12 col-xxl-3 col-xl-3 col-md-3 col-lg-3">
+       <img src="./images/icons blockchain game developement/sec5img1.svg" class="mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 ms-xl-5 ms-xxl-5 ms-md-5 ms-lg-5 mt-3 gamesec5img1">
+       <img src="./images/icons blockchain game developement/sec5img2.svg" class="mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5  ms-xl-5 ms-xxl-5 ms-md-5 ms-lg-5 mt-3 gamesec5img2">
+       <img src="./images/icons blockchain game developement/sec5img3.svg" class="mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5  ms-xl-5 ms-xxl-5 ms-md-5 ms-lg-5 mt-3 gamesec5img3">
+     </div>
+             <div class="col-12 col-xxl-6 col-xl-6 col-md-6 col-lg-6">
+ <img src="./images/icons blockchain game developement/monitor.png" class="w-75 ms-xl-5 ms-xxl-5 ms-md-5 ms-lg-5 mt-3">
+             </div>
+             <div class="col-12 col-xxl-3 col-xl-3 col-md-3 col-lg-3 gamesec5col3">
+        <img src="./images/icons blockchain game developement/sec5img4.svg"  class="mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mt-3 gamesec5img4">
+        <img src="./images/icons blockchain game developement/sec5img5.svg"  class="mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mt-3 gamesec5img5">
+        <img src="./images/icons blockchain game developement/sec5img6.svg"  class="mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mt-3 gamesec5img6">
+            </div>
+         </div>
+     </div>
+    <!-- --------end---------------------------- -->
+
+
+    <!-- -----start of section6 ------------------------>
+    <div class="container">
+        <h1 class="text-center mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mb-xxl-5 mb-xl-5 mb-md-5 mb-lg-5 mt-4 gamesec6head1" style="color: #16BECF;">Decentralized Game Development Lifecycle</h1>
+        <div class="row">
+            <div class="col-xxl-6 col-xl-6 col-md-6 col-lg-6 col-12">
+                <div class="accordion shadow-lg w-75 gamesec6acc" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      01    CONCEPT ANALYSIS
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Our developers collaborate with the client to gather their thoughts and imagination to bring their visions to life in the game. Our team of blockchain game developers gets a sense of what the users want.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          02   GAME PLANNING
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Users' ideas are transformed into a blueprint, a rough approximation of the game on papers and documents. The developers brainstorm ways to implement the views of the client on a blockchain.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        03 GAME DESIGN
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            After the blueprint is created, our team of skilled blockchain developers with over a hundred successful projects converts the design and ideas into a blockchain game.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          04 TESTING
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Our in-house testing team puts the planned games through rigorous testing in a variety of scenarios. Before sending the game to the customer, we check it for any potential loops and fix them before sending it.
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-md-6 col-lg-6 col-12">
+                <img src="./images/gamesec6img.jpeg" class="img-fluid w-75 h-75 gamesec6img1 mt-5">
+            </div>
+        </div>
+    </div>
+    <!-- ----------end-------------------------------- -->
+
+    <!-- -----start of section7-------------------------- -->
+    <div class="container-fluid gamesec7cont">
+        <h1 class="text-center mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mb-xxl-5 mb-xl-5 mb-md-5 mb-lg-5 gamesec7h1" style="color: #16BECF;">Features Of Game Development</h1>
+        <div class="uk-margin"></div>
+        <div class="uk-section"><div class="owl-carousel owl-theme">
+          
+            
+             <div class="item">
+                <div class="uk-card  uk-card-hover uk-card-body uk-light shadow-lg tokenosec7card1">
+               
+                    <img src="./images/Featues of game/Featues of game/01 smart contract.svg" class="w-25">
+                    <p class="text-dark">Smart Contracts</p>
+                    <h3 class="text-dark gamesec7p1">Smart contracts give role-playing games (RPGs) and the gambling sector transparency by allowing them to monitor the winning rates for the dealer.</h3>
+                </div>
+              
+          </div>
+             <div class="item">
+                <div class="uk-card  uk-card-hover uk-card-body uk-light shadow-lg tokenosec7card2">
+                  
+                    <img src="./images/Featues of game/Featues of game/02 Ownership.svg" class="w-25">
+                    <p class="text-dark">Ownership</p>
+                    <h3 class="text-dark gamesec7p1">Swords and skins will be encoded as non-fungible tokens that are fully unique and resemble real-world materials. Assets can be bought and sold by players to other players.</h3>
+                </div>
+              
+          </div>
+             <div class="item">
+                <div class="uk-card  uk-card-hover uk-card-body uk-light shadow-lg tokenosec7card3">
+                  
+                    <img src="./images/Featues of game/Featues of game/03 Fraud prevention.svg" class="w-25">
+                    <p class="text-dark">Fraud prevention</p>
+                    <h3 class="text-dark gamesec7p1">Players can rely on the trust mechanism of Blockchain to acquire a transparent and fair game structure without relying on a third-party or specialised independent developer.</h3>
+                </div>
+              
+          </div>
+             <div class="item">
+                <div class="uk-card  uk-card-hover uk-card-body uk-light shadow-lg tokenosec7card4">
+                    <img src="./images/Featues of game/Featues of game/01 smart contract.svg" class="w-25">
+                    <p class="text-dark">Smart Contracts</p>
+                    <h3 class="text-dark gamesec7p1">Smart contracts give role-playing games (RPGs) and the gambling sector transparency by allowing them to monitor the winning rates for the dealer.</h3>
+                </div>
+              
+          </div>
+             <div class="item">
+                <div class="uk-card  uk-card-hover uk-card-body uk-light shadow-lg tokenosec7card5">
+                    <img src="./images/Featues of game/Featues of game/02 Ownership.svg" class="w-25">
+                    <p class="text-dark">Ownership</p>
+                    <h3 class="text-dark gamesec7p1">Swords and skins will be encoded as non-fungible tokens that are fully unique and resemble real-world materials. Assets can be bought and sold by players to other players.</h3>
+                </div>
+              
+          </div>
+             <div class="item">
+                <div class="uk-card  uk-card-hover uk-card-body uk-light shadow-lg tokenosec7card6">
+                    <img src="./images/Featues of game/Featues of game/03 Fraud prevention.svg" class="w-25">
+                    <p class="text-dark">Fraud prevention</p>
+                    <h3 class="text-dark gamesec7p1">Players can rely on the trust mechanism of Blockchain to acquire a transparent and fair game structure without relying on a third-party or specialised independent developer.</h3>
+                </div>
+              
+          </div>
+            
+        </div>
+          </div>
+
+        </div>
+    <!------------end--------------------------------------- -->
+
+
+    <!-- ----------start of section8------------------------------- -->
+    <div class="container">
+        <div class="row mt-xl-5 mt-xxl-5 mt-md-5 mt-lg-5">
+            <div class="col-xxl-6 col-xl-6 col-md-6 col-lg-6 col-12">
+           <img src="./images/Why Choose us for game/whychoose.jpg">
+            </div>
+            <div class="col-xxl-6 col-xl-6 col-md-6 col-lg-6 col-12">
+                <h1 class="text-center mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mb-xxl-5 mb-xl-5 mb-md-5 mb-lg-5 mt-5 gamesec8h1" style="color: #16BECF;">Why Choose Us For Decentralized Game Development
+                </h1>
+                <p></p>
+                <div class="row">
+                    <div class="col">
+                   <div class="d-flex">
+                       <img src="./images/Why Choose us for game/tick.svg">
+                       <h3 class="ms-xl-2 ms-xxl-2 ms-md-2 ms-lg-2 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 gamesec8head1">True Blockchain Gaming</h3>
+                   </div>
+                   <div class="d-flex">
+                    <img src="./images/Why Choose us for game/tick.svg">
+                    <h3  class="ms-xl-2 ms-xxl-2 ms-md-2 ms-lg-2 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 gamesec8head1">Robust Strategies</h3>
+                </div>
+                <div class="d-flex">
+                    <img src="./images/Why Choose us for game/tick.svg">
+                    <h3  class="ms-xl-2 ms-xxl-2 ms-md-2 ms-lg-2 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 gamesec8head1">Robust Strategies</h3>
+                </div> 
+                <button class="gamesec8but text-white mt-xl-3 mt-xxl-3 mt-md-3 mt-lg-3">Get Started</button>
+                    </div>
+                    <div class="col gamesec8col2">
+                        <div class="d-flex">
+                            <img src="./images/Why Choose us for game/tick.svg">
+                            <h3  class="ms-xl-2 ms-xxl-2 ms-md-2 ms-lg-2 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 gamesec8head1">Complete Transparency</h3>
+                        </div>
+                        <div class="d-flex">
+                         <img src="./images/Why Choose us for game/tick.svg">
+                         <h3  class="ms-xl-2 ms-xxl-2 ms-md-2 ms-lg-2 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 gamesec8head1">Support & Maintainance</h3>
+                     </div>
+                     <div class="d-flex gamesec8dflex">
+                         <img src="./images/Why Choose us for game/tick.svg">
+                         <h3  class="ms-xl-2 ms-xxl-2 ms-md-2 ms-lg-2 mt-xxl-4 mt-xl-4 mt-lg-4 mt-md-4 gamesec8head1">Robust Strategies</h3>
+                     </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------------end-------------------------------------------->
+
+<!-- -----------------start of section9--------------------------- -->
+<div class="container">
+    <div class="row mt-xl-5 mt-xxl-5 mt-md-5 mt-lg-5">
+        <div class="col-xxl-6 col-xl-6 col-md-6 col-lg-6 col-12">
+     <img src="./images/gamesec9img1.png">
+        </div>
+        <div class="col-xxl-6 col-xl-6 col-md-6 col-lg-6 col-12 gamesec9col2">
+            <h1 class="text-center mt-xxl-5 mt-xl-5 mt-md-5 mt-lg-5 mb-xxl-5 mb-xl-5 mb-md-5 mb-lg-5  gamesec9head1" style="color: #16BECF;">Decentralized Game Development Benefits that We Offer
+            </h1>
+            <p>
+                Our goal is to create a cutting-edge gaming platform where gamers and developers can have complete control over their digital assets via the Blockchain.
+            </p>
+            <button class="gamesec8but text-white mt-xl-3 mt-xxl-3 mt-md-3 mt-lg-3">Get Started</button>
+        </div>
+    </div>
+</div>
+<!-- ------------------------end----------------------------------- -->
+
+
+<!-- -------------start of  section10---------------------------------- -->
+
+<section class="testimonial_section laptoptestimonial mbm-5" data-aos="fade-up" style="margin-top:-20rem;">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="testimonial_box">
+                <div class="testimonial_container">
+                   <div class="background_layer"></div>
+                   <div class="layer_content">
+                      <div class="testimonial_owlCarousel owl-carousel">
+                         <div class="testimonials testimonialmobile" style="margin-left: 105px;">
+                            <div class="testimonial_content">
+                               <div class="testimonial_caption text-justify">
+                                  <h1 style="color:#16BECF;" class="smartcarh1">What's Client<br> Say About Us</h1>
+                                  <img src="images/cube-divider-smrt1.svg" style="width: 244px;
+                                     height: 57px;
+                                     margin-left: 2px;">
+                               </div>
+                               <p class="text-justify">
+                                   I'm so happy to have a good relationship with Roboto 360. I prefer their service for my enterprise. They serve with what we asked. The developed product was user friendly and structured in a good manner.
+
+                                   </p>
+                               <h6 class="text-justify" style="margin-top: 50px;">Lisa Lennon</h6>
+                               <h6 class="text-justify"><strong>DeFi Expert</strong></h6>
+                            </div>
+                            <div class="images_box">
+                               <div class="testimonial_img">
+                                  <img src="images/Combined-Shape-smart1.svg" class="d-none d-md-block d-lg-block d-xl-block d-xxl-block" style="    margin-top: -23px;">
+                                  <img src="images/Rectangle-2-client.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="width: 58%;">
+                                  <img src="images/Image-client.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="margin-top: -348px;width: 403px;">
+                                  <img src="images/CombinedShape _CombinedShapMask.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="margin-top:-100px;margin-left:231px;">
+                                  <img src="./images/attachclient.svg" class="smartcarimg w-50 d-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                               </div>
+                            </div>
+                         </div>
+                         <div class="testimonials">
+                            <div class="testimonial_content">
+                               <div class="testimonial_caption text-justify">
+                                  <h1 style="color:#16BECF;"  class="smartcarh1">What's Client<br> Say About Us</h1>
+                                  <img src="images/cube-divider-smrt1.svg" style="width: 244px;
+                                     height: 57px;
+                                     margin-left: 2px;">
+                               </div>
+                               <p class="text-justify">Roboto360 went beyond all the expectations and the developer always went extra mile to help us meet the deadlines and accomplish more. The end product had a very high quality and we were confident delivering
+                                  it to the end users.
+                               </p>
+                               <h6 class="text-justify" style="margin-top: 50px;">Lisa Lennon</h6>
+                               <h6 class="text-justify"><strong>DeFi Expert</strong></h6>
+                            </div>
+                            <div class="images_box">
+                               <div class="testimonial_img">
+                                  <img src="images/Combined-Shape-smart1.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="    margin-top: -23px;">
+                                  <img src="images/Rectangle-2-client.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="width: 58%;">
+                                  <img src="images/Image-client.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="margin-top: -348px;width: 403px;">
+                                  <img src="images/CombinedShape _CombinedShapMask.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="margin-top:-100px;margin-left:231px;">
+                                  <img src="./images/attachclient.svg" class="smartcarimg w-50 d-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                               </div>
+                            </div>
+                         </div>
+                         <div class="testimonials">
+                           <div class="testimonial_content">
+                              <div class="testimonial_caption text-justify">
+                                 <h1 style="color:#16BECF;"  class="smartcarh1">What's Client<br> Say About Us</h1>
+                                 <img src="images/cube-divider-smrt1.svg" style="width: 244px;
+                                    height: 57px;
+                                    margin-left: 2px;">
+                              </div>
+                              <p class="text-justify">All required features were implemented within the scope, timelines, and budget thanks to effective project management. The project manager dove deeply into the project and performed more like a colleague.
+                              </p>
+                              <h6 class="text-justify" style="margin-top: 50px;">Lisa Lennon</h6>
+                              <h6 class="text-justify"><strong>DeFi Expert</strong></h6>
+                           </div>
+                           <div class="images_box">
+                              <div class="testimonial_img">
+                                 <img src="images/Combined-Shape-smart1.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="    margin-top: -23px;">
+                                 <img src="images/Rectangle-2-client.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="width: 58%;">
+                                 <img src="images/Image-client.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="margin-top: -348px;width: 403px;">
+                                 <img src="images/CombinedShape _CombinedShapMask.svg"  class="d-none  d-md-block d-lg-block d-xl-block d-xxl-block" style="margin-top:-100px;margin-left:231px;">
+                                 <img src="./images/attachclient.svg" class="smartcarimg w-50 d-block d-md-none d-lg-none d-xl-none d-xxl-none">
+                              </div>
+                           </div>
+                        </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </section>
+ <footer>
+   <div class="container cptySec">
+      <div class="row textcentremd">
+         <div class="col-lg-3">
+            <div class="footTit" data-aos="fade-up" data-aos-duration="400">
+               Address
+               <div><img src="images/cube-divider-sm.svg" alt=""></div>
+            </div>
+            <div class="footerCont" data-aos="fade-up" data-aos-duration="500">
+
+
+               <p class="mb-2 text-black">T0,Unit G2,G10,<span class="primeLbl"></span></p>
+               <p>Expressway Studios,<a href="" class="link"></a></p>
+               <p class="mb-2 text-black mt-lg-n2">1 Dock Road,<span class="primeLbl"></span></p>
+               <p>London E16 1AG.<a href="" class="link"></a></p>
+          
+            </div>
+         </div>
+         <div class="col-lg-3">
+            <div class="footTit" data-aos="fade-up" data-aos-duration="600">
+               Contact
+               <div><img src="images/cube-divider-sm.svg" alt=""></div>
+            </div>
+            <div class="footerCont" data-aos="fade-up" data-aos-duration="700">
+               <p class="mb-2">Tel: <span class="primeLbl">+44 12345 67890</span></p>
+               <p>E-mail: <a href="mailto:info@roboto.com" class="link">info@roboto.com</a></p>
+            </div>
+         </div>
+         <div class="col-lg-2" data-aos="fade-up" data-aos-duration="800">
+            <div class="footTit">
+               Follow
+               <div><img src="images/cube-divider-sm.svg" alt=""></div>
+            </div>
+            <div class="footerCont" data-aos="fade-up" data-aos-duration="900">
+               <a href="" class="footLink">Twitter</a>
+               <a href="" class="footLink">LinkedIn</a>
+               <a href="" class="footLink">Facebook</a>
+            </div>
+         </div>
+         <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1000">
+            <div class="footTit">
+               Subscribe
+               <div><img src="images/cube-divider-sm.svg" alt=""></div>
+            </div>
+            <p data-aos="fade-up" data-aos-duration="600">Follow our social media channels for latest updates</p>
+            <!-- <div data-aos="fade-up" data-aos-duration="800">
+               <div class="input-group inputGrp">
+                  <input type="text" class="form-control" placeholder="Email" aria-label="" aria-describedby="basic-addon1">
+                  <div class="input-group-append">
+                     <button class="btn" type="button">Send</button>
+                  </div>
+               </div>
+            </div> -->
+            <div class="d-flex dd-block">
+               <i class="fab fa-twitter mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+               <i class="fab fa-linkedin mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+               <i class="fab fa-facebook mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+               <i class="fab fa-google mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+             </div>
+         </div>
+      </div>
+      <div class="text-center"><img src="images/cube-divider-large.svg" class="cubeDivLg" alt=""></div>
+      <div class="row mt-4">
+         <div class="col-md-12 text-center">
+            <div class="cptyLabel d-block">
+               Copyright ©<a href="index.html">  Roboto360</a> Website 2021
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+    <!-- Footer section end here -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap Popper script -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap script -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animation AOS script -->
+    <script src="js/aos.js"></script>
+    <!-- Owl carousal script -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- parallax animation script -->
+    <script src="js/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+duration: 1200,
+})
+</script>
+
+<!-- ---owl carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.40/js/uikit-icons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+<!-- end -->
+<script>
+    $('.owl-carousel').owlCarousel({
+    loop:false,
+  stagePadding: 15,
+    margin:10,
+    nav:true,
+  navText : ['<span class="uk-margin-small-right uk-icon" uk-icon="icon: chevron-left"></span>','<span class="uk-margin-small-left uk-icon" uk-icon="icon: chevron-right"></span>'],
+    responsive:{
+        0:{
+            items:1
+        },
+        640:{
+            items:2
+        },
+      960:{
+            items:3
+        },
+        1200:{
+            items:4
+        }
+    }
+})
+</script>
+
+<script>
+    $(document).ready(function(){
+        // function openNav() {
+        //     document.getElementById("sidebar").style.width = "100%";
+        // }
+        // ('#menuToggler').click(function(){
+        //     alert('fsdfds');
+        //     document.getElementById("sidebar").style.width = "100%";
+        // });
+        $("#menuToggler").click(function(){
+            $(".sidebar").css("margin-left", "0");
+        });
+        $(".sidebar-content > ul > li > a").click(function(){
+            $(".sideSubLink").slideToggle(1000);
+        });
+        $(".closebtn").click(function(){
+            $(".sidebar").css("margin-left", "-300px");
+        });
+
+        // gsap.from(".fromLeft", {
+        //     stagger: .2,
+        //     x: 400,
+        //     duration: 1,
+        //     ease: Back.easeOut.config(1.7)
+        // })
+        // gsap.from(".fromRight", {
+        //     stagger: .2,
+        //     x: -400,
+        //     duration: 1,
+        //     ease: Back.easeOut.config(1.7)
+        // })
+        gsap.from(".fromLeft", {
+            scrollTrigger: "#secTrigger",
+            opacity: 0, 
+            x: 400, 
+            duration: 1
+        });
+        gsap.from(".fromRight", {
+            scrollTrigger: "#secTrigger",
+            opacity: 0, 
+            x: -400, 
+            duration: 1
+        });
+        gsap.from('midContent', {
+            opacity: 1, 
+            duration: 0.1 
+        });
+        gsap.from(".block-1", { scrollTrigger: { trigger: servicesSec, start: 'top 75%'}, opacity: 0,  x: 300,  y:300, duration: 1});
+        gsap.from(".block-2", { scrollTrigger: { trigger: servicesSec, start: 'top 75%'}, opacity: 0,  x: 0,  y:300, duration: 2});
+        gsap.from(".block-3", { scrollTrigger: { trigger: servicesSec, start: 'top 75%'}, opacity: 0,  x: -300,  y:300, duration: 3});
+        gsap.from(".block-4", { scrollTrigger: { trigger: servicesSec, start: 'top 75%'}, opacity: 0,  x: 300,  y:-300, duration: 4});
+        gsap.from(".block-5", { scrollTrigger: { trigger: servicesSec, start: 'top 75%'}, opacity: 0,  x: 0,  y:-300, duration: 5});
+        gsap.from(".block-6", { scrollTrigger: { trigger: servicesSec, start: 'top 75%'}, opacity: 0,  x: -300,  y:-300, duration: 6});
+
+
+        gsap.set('.a-animated', {'visibility' : 'visible'});
+        gsap.utils.toArray(".a-line-dot").forEach(function(section) {
+            var line = section.getElementsByClassName('c-line-dot__line');
+            gsap.timeline({
+            scrollTrigger: {
+                trigger: section,
+                start: 'top 75%',
+                toggleActions: 'play none none none'
+            }
+            })
+            .from(line, { duration: 1, scale: 0, transformOrigin: 'center top'})
+        });
+
+
+    });
+    
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+
+</html>

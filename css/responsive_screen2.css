@@ -1,0 +1,307 @@
+@media (max-width: 420px) {
+   
+    .navbar-nav {
+        display: inline-flex;
+    }
+    .navbarPrimary .container-fluid {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+    .heroContent{
+        margin-top: -150px;
+    }
+    .heroContent h1 {
+       position: initial;
+       
+    }
+
+    .heroContent span:nth-child(3){
+        font-size: 50px !important;
+        top: 4px !important;
+    }
+
+    #headerMenu {
+        text-align: left;
+    }
+    .bannerCubeBtm.aos-init.aos-animate {
+        margin-top: 37%;
+    }
+    .heroSec{
+        padding-top: 200px;
+    }
+    .heroContent{
+        text-align: left !important;
+    }
+    .text-black , .heroContent > span{
+        font-size: 24px !important;
+    }
+    .cardBlocks1{
+        text-align: left !important;
+    }
+    .card-body{
+        padding: 0px !important;
+    }
+    
+    .row-cols-md-5 > *{
+            flex: 0 0 50%;
+        max-width: 50%;
+    
+    }
+    .solutionsSec {
+        padding: 0px;
+    }
+    #solutionsSec {
+        display: none;
+    }
+    .h-100 {
+        height: 0% !important;
+    }
+    .heroSec .bannerCubeBtm{
+        bottom: 0px;
+        position: initial;
+    }
+    .sectionAnim{
+        padding-top: 250px;
+    }
+    .ms-5{
+        margin-left:0 !important;
+        width: 100%;
+        height: 100%;
+    }
+    .ml60{
+        margin-left: 0 !important;
+    }
+    .ps-5{
+        padding-left: 1rem !important;
+    }
+    .mt-5 {
+        margin-top: 1rem !important;
+    }
+    .mt-100{
+        margin-top: 0;
+    }
+    .mt-70{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .col{
+        flex-basis: auto;
+       
+        margin-bottom: 13px;
+    }
+    .row-cols-1 > * {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mb-5 .card .mb-5 div:nth-child(1),.mb-5 .card .mb-5 div:nth-child(2){
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 41px;
+    }
+    .col-lg-4 col-md-4 col-sm-12{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .testimonials{
+        margin-left: 0 !important;
+    }
+    testimonial_img > img{
+        width: 100%;
+    }
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials{
+        margin-top: 0 !important;
+        padding: 0px 0px 0px 15px;
+    }
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content{
+        margin-top: 0 !important;
+        padding: 0px 0px 0px 40px;
+    }
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content p{
+       width: 96%;
+    }
+    section{
+        padding: 0px 0;
+    }
+    .d-flex{
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        width: 100% !important;
+        display: table !important;
+    }
+    .d-flex > img{
+        width: 23% !important;
+        height: 60px;
+
+    }
+}
+@media (min-width: 421px) and (max-width: 900px) {
+    
+    .navbar-nav {
+        display: inline-flex;
+
+    }
+    .navbarPrimary .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+        margin: auto;
+    }
+        #headerMenu {
+        text-align: center;
+    }
+    .heroContent{
+        margin-top: 100px;
+    }
+     .heroContent h1:nth-child(1){
+        font-size: 44px !important;
+        top: 0px !important;
+        font-weight: 600 !important;
+    
+    } 
+    .heroContent h1:nth-child(2){
+        font-size:41px !important;
+        top: 53px !important;
+    }
+
+    .h-100 {
+        height: 0% !important;
+    }
+    .heroContent span:nth-child(3){
+        position: relative;
+        font-size: 50px !important;
+    }
+    .solutionsSec1 {
+        padding: 0px 0 35px !important;
+    }
+    .sectionAnim{
+        padding: 0;
+    }
+
+    .navbar-nav {
+        display: inline-flex;
+        width: 31%;
+    }
+    
+    .card div div:nth-child(1) img{
+        position: relative;
+        top: 0;
+    }
+    .card  div div:nth-child(1){
+        height: 330px !important;
+    }
+    .cardBlocks img:nth-child(2){
+        margin-left: 44% !important;
+        margin-top: -31% !important;
+    }
+    .row-cols-md-3 > *{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .solutionsSec {
+        padding: 0px 0 0px;
+        display: none;
+    }
+    .heroSec{
+        height: auto;
+    }
+    .heroSec .bannerCubeBtm {
+        position: initial;
+    }
+    .heroSec .col-md-6{
+        max-width: 50%;
+    }
+    .heroContent span:nth-child(3){
+        position: relative;
+        font-size: 50px !important;
+        top: 88px !important;
+    
+    }
+    .col-md-6{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .ps-5 {
+        padding-left: 0rem !important;
+    }
+    .ml60{
+        margin-left: 0 !important;
+    }
+    .ms-5{
+        margin-left: 1rem !important;
+        margin-top: 10%;
+    }
+    .mb-5 .card .mb-5 div:nth-child(1),.mb-5 .card .mb-5 div:nth-child(2){
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-left: 41px;
+    }
+    .testimonial_img img {
+        width: 97%;
+    }
+    .col{
+        padding-bottom: 10px;
+    }
+    .col-md-4{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-md-8{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    section{
+        padding: 0;
+    }
+    .testimonials{
+        margin-left: 0 !important;
+    }
+    .cardBlocks1 {
+        text-align: left !important;
+    }
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials{
+        padding: 0;
+    }
+    .d-flex{
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+        width: 100% !important;
+        display: table !important;
+        height: 150px;
+        text-align: left;
+    }
+    .d-flex > img{
+        width: 23% !important;
+        height: 60px;
+
+    }
+    .footTit.aos-init.aos-animate {
+        width: 50%;
+        float: left;
+    }
+}  
+@media (min-width: 901px) {
+    
+    .heroSec {
+        height: 50vh;
+    }
+    .heroContent h1:nth-child(1){
+        font-size: 60px !important;
+        
+    }
+    .heroContent h1:nth-child(2){
+        font-size: 60px !important;
+        
+    }
+    .testimonial_img > img {
+        width: 100%;
+    }
+    .ms-5 {
+        margin-left: 0rem !important;
+    }
+    .cardBlocks1{
+        padding: 0 !important;
+    }
+}
+
+

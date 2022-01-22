@@ -1,0 +1,25 @@
+<svg id="_04" data-name="04" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.999" height="46" viewBox="0 0 60.999 46">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b3b7f4"/>
+      <stop offset="1" stop-color="#a7bffb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f6ff"/>
+      <stop offset="1" stop-color="#dae4ff"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle" width="56" height="46" rx="4" fill="#757ae9"/>
+  <path id="Rectangle_Copy_118" data-name="Rectangle Copy 118" d="M5.071,0H50.71a5.071,5.071,0,0,1,5.071,5.071v5.071H0V5.071A5.071,5.071,0,0,1,5.071,0Z" fill="url(#linear-gradient)"/>
+  <rect id="Rectangle_Copy_120" data-name="Rectangle Copy 120" width="15" height="16" rx="1" transform="translate(32 16)" fill="url(#linear-gradient-2)"/>
+  <g id="Group_70" data-name="Group 70" transform="translate(38.032 5.071)">
+    <rect id="Rectangle-2" data-name="Rectangle" width="23" height="23" rx="2" transform="translate(-0.033 -0.071)" fill="#00d4b0"/>
+    <path id="Path_103" data-name="Path 103" d="M0,6.548,4.836,1.813,7.4,4.184,12.044,0" transform="translate(5.705 7.485)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+  <circle id="Oval" cx="7" cy="7" r="7" transform="translate(10 18)" fill="url(#linear-gradient)"/>
+  <ellipse id="Oval_Copy_12" data-name="Oval Copy 12" cx="7.5" cy="8" rx="7.5" ry="8" transform="translate(10 16)" fill="url(#linear-gradient)"/>
+  <path id="Combined_Shape_Copy_8" data-name="Combined Shape Copy 8" d="M.105,8.874A7.613,7.613,0,0,1,8.874.105V8.874Z" transform="translate(10.142 16.481)" fill="#4c50b1"/>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M.105,8.874A7.613,7.613,0,0,1,8.874.105V8.874Z" transform="translate(7.606 13.945)" fill="url(#linear-gradient-2)"/>
+  <rect id="Rectangle_Copy_122" data-name="Rectangle Copy 122" width="14" height="3" rx="1" transform="translate(32 35)" fill="#4c50b1"/>
+  <rect id="Rectangle_Copy_121" data-name="Rectangle Copy 121" width="14" height="3" rx="1" transform="translate(10 35)" fill="#4c50b1"/>
+</svg>

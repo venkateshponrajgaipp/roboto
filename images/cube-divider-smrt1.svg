@@ -1,0 +1,21 @@
+<svg id="cube-divider-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217.567" height="45.965" viewBox="0 0 217.567 45.965">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.921" y1="0.493" x2="0.157" y2="1.061" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3fffac"/>
+      <stop offset="1" stop-color="#73caff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line id="Line_16" data-name="Line 16" x2="217.567" transform="translate(0 22.363)" fill="none" stroke="#16becf" stroke-width="10"/>
+  <g id="Group_2872" data-name="Group 2872" transform="translate(84.007 0)">
+    <g id="Group_2871" data-name="Group 2871" transform="translate(0 0)">
+      <g id="Group_2870" data-name="Group 2870" transform="translate(0 0)">
+        <path id="Path_255" data-name="Path 255" d="M23.071,2290.11l19.653,5.9-.1,27.44-18.135-9.113Z" transform="translate(-16.41 -2280.88)" fill="#1b5aa6"/>
+        <path id="Path_256" data-name="Path 256" d="M22.963,2239.167l18.482-4.569,19.523,4.244-18.38,6.241Z" transform="translate(-16.311 -2229.929)" fill="#349ddc"/>
+        <path id="Path_257" data-name="Path 257" d="M260.77,2292.328l18.371-6.234-1.478,24.2-16.986,9.459Z" transform="translate(-234.466 -2277.193)" fill="#4ec5ff"/>
+        <g id="Group_2869" data-name="Group 2869" transform="translate(8.973 0) rotate(14)">
+          <path id="Path_258" data-name="Path 258" d="M36.84,0,16.814.618,0,9.528l7.2,23.18,19.854,4.383L41.234,23.855Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

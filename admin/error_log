@@ -1,0 +1,9 @@
+[24-May-2021 15:04:39 UTC] PHP Notice:  Undefined index: login in /home/u0oj97igoejv/public_html/admin/index.php on line 3
+[24-May-2021 15:07:23 UTC] PHP Notice:  Undefined index: login in /home/u0oj97igoejv/public_html/admin/index.php on line 3
+[01-Oct-2021 22:27:42 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/admin/doc/db.php on line 8
+[01-Oct-2021 22:28:26 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/admin/doc/db.php on line 8
+[01-Oct-2021 22:28:27 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/admin/doc/db.php on line 8
+[20-Oct-2021 13:40:39 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/admin/doc/db.php on line 8
+[01-Dec-2021 11:06:42 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/admin/doc/db.php on line 8
+[01-Dec-2021 11:10:35 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/admin/doc/db.php on line 8
+[01-Dec-2021 11:10:40 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'admin'@'localhost' (using password: YES) in /home/cz4hb9f03y7w/public_html/admin/doc/db.php on line 8

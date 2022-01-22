@@ -1,0 +1,1789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/loog-dark.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/loog-dark.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/loog-dark.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/decent.css">
+    <link rel="stylesheet" href="css/responsive1.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/crypto.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- <link rel="stylesheet" href="./css/developer.css"> -->
+    <title>Decentralised Crypto Wallet</title>
+</head>
+<style>
+          .navbarPrimary .container-fluid{
+    padding-left:50px !important;
+    padding-right:40px !important;
+}
+    .ot-heading>span {
+        font-size: 14px;
+        font-weight: 800;
+        color: #7141b1;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 2px;
+        text-transform: uppercase;
+    }
+    
+    .ot-heading h2 {
+        margin-bottom: 0;
+        line-height: 48px;
+    }
+    
+    .space-35 {
+        height: 35px;
+        width: 100%;
+    }
+    
+    .ot-testimonials {
+        margin: 0 -15px;
+    }
+    
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        display: block;
+    }
+    
+    .owl-carousel {
+        display: none;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .owl-carousel,
+    .owl-carousel .owl-item {
+        -webkit-tap-highlight-color: transparent;
+        position: relative;
+    }
+    
+    .ot-testimonials .testi-item {
+        padding: 0 15px;
+        position: relative;
+    }
+    
+    .ot-testimonials .layer1 {
+        background: #f8f8f8;
+        position: absolute;
+        left: 30px;
+        bottom: -20px;
+        width: calc(100% - 55px);
+        height: 100%;
+        z-index: -1;
+        box-shadow: 3px 3px 13px 0px rgb(0 0 0 / 10%);
+    }
+    
+    .ot-testimonials .layer2 {
+        background: #fff;
+        padding: 40px;
+        border-radius: 6px;
+        margin-bottom: 40px;
+        box-shadow: 3px 3px 13px 0px rgb(0 0 0 / 10%);
+    }
+    
+    .owl-carousel .owl-item img {
+        width: auto;
+    }
+    
+    .ot-testimonials .t-head img {
+        margin-right: 30px;
+    }
+    
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+    }
+    
+    .ot-testimonials .t-head h6 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    
+    .ot-testimonials .ttext {
+        margin-top: 23px;
+    }
+    
+    .ot-testimonials .testi-item {
+        padding: 0 15px;
+        position: relative;
+    }
+    
+    .owl-theme .owl-nav [class*='owl-'] {
+        z-index: 1;
+        position: absolute;
+        top: 50%;
+        left: -57px;
+        margin-top: -17px;
+        background: none;
+        color: #1b1d21;
+        border: none;
+        outline: none;
+        transition: all 0.3s linear;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+    }
+    
+    .owl-theme .owl-nav [class*='owl-'] {
+        color: #FFF;
+        font-size: 14px;
+        margin: 5px;
+        padding: 4px 7px;
+        background: #D6D6D6;
+        display: inline-block;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    /* .owl-theme .owl-nav .owl-next {
+        left: auto;
+        right: -57px;
+    } */
+    
+    .flaticon-back:before {
+        content: "\f107";
+    }
+    
+    .flaticon-right-arrow-1:before {
+        content: "\f10a";
+    }
+    
+    [class^="flaticon-"]:before,
+    [class*=" flaticon-"]:before,
+    [class^="flaticon-"]:after,
+    [class*=" flaticon-"]:after {
+        font-family: Flaticon;
+        font-size: 20px;
+        font-style: normal;
+    }
+    
+    .owl-theme .owl-nav .owl-next {
+        left: auto;
+        right: -57px;
+    }
+    
+    .blogSec .cardBlocks h4 {
+        position: relative;
+        text-align: CENTER;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .blogSec .cardBlocks h4:before {
+        content: "" !important;
+        border-bottom: 2px solid #fff !important;
+        width: 80px !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        position: absolute !important;
+    }
+    
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        color: black;
+        font-weight: 600;
+        background-color: #fff;
+        border-color: #fff;
+    }
+    
+    a {
+        color: black;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    /* slider */
+    
+    .testimonial_section {
+        display: block;
+        overflow: hidden;
+    }
+    
+    .testimonial_section:after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+    
+    .testimonial_section .about_content {
+        background-color: #020d26;
+        padding-top: 77px;
+        padding-right: 210px;
+        padding-bottom: 62px;
+        position: relative;
+    }
+    
+    .testimonial_section .about_content .background_layer {
+        background-color: #020d26;
+        width: auto;
+        margin-left: -200px;
+        right: 0;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .testimonial_section .about_content .layer_content {
+        position: relative;
+        z-index: 9;
+        height: 100%;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title {
+        margin-bottom: 24px;
+        position: relative;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title:after {
+        display: block;
+        clear: both;
+        content: "";
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title h5 {
+        color: #fff;
+        font-family: "Open Sans";
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: white;
+        margin-top: -5px;
+        margin-bottom: 6px;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title h2 {
+        font-family: "Titillium Web";
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 50px;
+        padding-bottom: 51px;
+        margin-bottom: 0px;
+        color: #fff;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title h2 strong {
+        font-weight: 600 !important;
+        width: 100%;
+        display: block;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title .heading_line {
+        position: relative;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title .heading_line span {
+        transition: all 0.5s ease-in-out 0s;
+        position: relative;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title .heading_line span:after {
+        content: "";
+        right: auto;
+        left: 69px;
+        position: absolute;
+        bottom: 28px;
+        width: 17px;
+        margin-left: 0;
+        border-bottom-width: 3px;
+        border-bottom-color: #cacaca;
+        border-bottom-style: solid;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title .heading_line:after {
+        content: "";
+        left: 1%;
+        margin-left: 0;
+        position: absolute;
+        bottom: 28px;
+        width: 59px;
+        border-bottom-width: 3px;
+        border-bottom-style: solid;
+        border-bottom-color: #fff;
+    }
+    
+    .testimonial_section .about_content .layer_content .section_title p {
+        color: #fff;
+        margin: 0 0 15px;
+    }
+    
+    .testimonial_section .about_content .layer_content a {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s;
+    }
+    
+    .testimonial_section .about_content .layer_content a i {
+        font-size: 18px;
+        vertical-align: middle;
+    }
+    
+    .testimonial_section .about_content .layer_content a:hover {
+        color: #ff5e14;
+    }
+    
+    .testimonial_section .testimonial_box {
+        margin-top: 60px !important;
+        position: relative;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container {
+        background-color: #0799A8;
+        margin-left: -170px !important;
+        position: relative;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .background_layer {
+        background-color: #fff;
+        width: auto;
+        margin-right: -200px;
+        right: 0;
+        background-image: url(../images/map.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content {
+        position: relative;
+        z-index: 9;
+        height: 100%;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel {
+        display: block;
+        position: relative;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials {
+        margin: 10px 0 10px 0;
+        padding: 62px 0px 72px 50px;
+        position: relative;
+        text-align: center;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content {
+        /* box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.13); */
+        margin-left: 524px;
+        margin-top: 69px;
+        padding: 45px 40px 45px 40px;
+        z-index: 1;
+        position: relative;
+        background-color: #fff;
+        transition: all 0.5s ease-in-out 0s;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption {
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption:after {
+        content: "";
+        width: 30px;
+        display: block;
+        height: 2px;
+        text-align: center;
+        /* left: 46%; */
+        margin-top: 6px;
+        background-color: #fff;
+        position: absolute;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption h6 {
+        padding-top: 0;
+        margin-bottom: -5px;
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #020d26;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content .testimonial_caption span {
+        font-size: 12px;
+        color: white;
+        margin: 0;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .testimonial_content p {
+        padding: 0;
+        margin: 0;
+        padding-top: 10px;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 400;
+        color: white;
+        font-style: italic;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .images_box .testimonial_img {
+        border: none;
+        position: absolute;
+        top: 0;
+        left: 55px;
+        top: 80px;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .layer_content .testimonial_owlCarousel .testimonials .images_box .testimonial_img img {
+        border: 5px solid #fff;
+        /* box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1); */
+        width: 35%;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-prev {
+        position: absolute;
+        top: 165px;
+        right: 42px;
+        border-radius: 50%;
+        background: #0799A8;
+        display: block;
+        outline: 0;
+        width: 34px;
+        line-height: 34px;
+        height: 34px;
+        color: #fff;
+        font-size: 23px;
+        margin-top: -20px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-prev:hover {
+        background: #020d26;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-next {
+        position: absolute;
+        top: 165px;
+        right: 5px;
+        border-radius: 50%;
+        display: block;
+        background: #0799A8;
+        outline: 0;
+        width: 34px;
+        text-align: center;
+        line-height: 34px;
+        height: 34px;
+        color: #fff;
+        font-size: 23px;
+        margin-top: -20px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-next:hover {
+        background: #020d26;
+    }
+    
+    @media all and (max-width: 991px) {
+        .testimonial_section .about_content {
+            padding-right: 15px !important;
+        }
+        .testimonial_section .about_content .background_layer {
+            width: 200% !important;
+        }
+        .testimonial_section .testimonial_box {
+            margin-top: 0 !important;
+        }
+        .testimonial_section .testimonial_box .background_layer {
+            width: 200% !important;
+            margin-left: -200px;
+        }
+        .testimonial_section .testimonial_box .about_content {
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+            margin-top: 28% !important;
+        }
+        .testimonial_section .testimonial_box .testimonial_container {
+            margin-left: -15px !important;
+        }
+        .testimonial_section .testimonial_box .testimonial_container .testimonials {
+            margin: 0px 0 20px 0;
+        }
+        .testimonial_section .testimonial_box .testimonial_container .testimonials .testimonial_content {
+            margin-left: -36px !important;
+        }
+        .testimonial_section .testimonial_box .testimonial_container .testimonials .images_box {
+            display: block;
+        }
+    }
+    
+    @media screen and (max-width:560px) {
+        .testimonial_section .testimonial_box .testimonial_container .testimonials .images_box {
+            display: block;
+            margin-left: 10px;
+        }
+        .testimonial_img {
+            margin-left: -12em;
+        }
+        .testimonial_content {
+            margin-top: 330px;
+        }
+        .testimonial_caption {
+            margin-top: 16em;
+        }
+    }
+    
+    .accordion {
+        background-color: white;
+        color: #0799A8;
+        /* cursor: pointer; */
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+    
+    .active,
+    .accordion:hover {
+        background-color: white;
+        border: none;
+    }
+    
+    .panel {
+        padding: 0 18px;
+        display: none;
+        background-color: white;
+        overflow: hidden;
+    }
+    
+    .accordion:after {
+        content: '\02795';
+        /* background-image: url(./images/add_black_24dp.svg); */
+        /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: white;
+        float: right;
+        margin-left: 5px;
+        border: none;
+    }
+    
+    .active:after {
+        content: "\2796";
+        /* Unicode character for "minus" sign (-) */
+        border: none;
+    }
+    /* slider */
+          /*For Carousel*/
+          @media screen and (min-width:1440px){
+            #MiCarousel .carousel-control-prev,
+            #MiCarousel .carousel-control-next {
+            top: -100% !important; 
+        }}
+
+        @media screen and (max-width:576px) {
+            #MiCarousel .carousel-control-prev,
+            #MiCarousel .carousel-control-next {
+                top:80%;
+                
+            }
+        }
+
+        @media screen and (min-width:320px) and (max-width:768px) {
+            .content1 .text {
+                font-size: 31px !important;
+            }
+        }
+          @media only screen and (min-width:1200px) {
+
+#MiCarousel .carousel-control-prev,
+#MiCarousel .carousel-control-next {
+    top: 43% !important;
+}
+}
+
+@media only screen and (min-width:768px) {
+
+#MiCarousel .carousel-control-prev,
+#MiCarousel .carousel-control-next {
+    top:65% !important;
+    
+}
+.listText h3{
+    font-size: small;
+    line-height:1.1rem;
+
+}
+}
+@media screen and (min-width:320px) and (max-width:576px) {
+            .vil {
+                display: inline-flex;
+                padding-left: 2px;
+
+
+            }
+
+
+        }
+
+        @media screen and (min-width:375px) {
+            .vil ul li {
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+        @media screen and (min-width:425px) {
+            .vil ul li {
+                padding-left: 15px;
+                padding-right: 10px;
+            }
+        }
+
+        @media screen and (min-width:768px) and (max-width:900px) {
+            .vil {
+                display: inline-flex;
+                margin-right: 0;
+            }
+            .vil ul li{
+                padding-left:30px ;
+            }
+        }
+        @media screen and (min-width:320px) and (max-width:576px) {
+            .vil {
+                display: inline-flex;
+                padding-left: 2px;
+
+
+            }
+        }
+
+        @media screen and (min-width:576px) {
+            .vil ul li {
+              padding-left:30px;
+            }
+            .btnGlow{
+                display: none;
+            }
+        }
+
+        @media screen and (min-width:768px) and (max-width:900px) {
+            .vil {
+                display: inline-flex;
+              
+            }}
+
+</style>
+
+<body>
+    <!-- Header section starts here -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#headerMenu"
+                aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fas fa-bars"></span>
+            </button> -->
+            <div class="collapse navbar-collapse show vil" id="headerMenu">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="navbar-brand p-0" href="javascript:void(0);" id="menuToggler">
+                            <span class="fas fa-bars"></span> Menu
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mr-auto ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="navbar-brand p-0" href="./index.html">
+                            <img src="images/logo-dark.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0 navMenuList">
+                    <li class="nav-item">
+                        <a class="nav-link ctaBtn btnGlow rippleAnim scrollLink" href="./contactus.html">Get In
+                            Touch</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="sidebar" class="sidebar">
+        <span><img src="./images/loog-wHITE.SVG" style="margin-left: 25px;margin-top: 24px;" class="img-fluid"
+                alt=""></span>
+
+        <a href="javascript:void(0)" class="closebtn">&times;</a>
+        <div class="sidebar-content">
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne" href="#">
+                                Services
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <ul class="subLink">
+                            <div id="accordion1">
+                                <div class="card">
+                                    <li>
+                                        <h5 class="mb-0">
+                                            <a class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseTwo1" href="#" aria-expanded="false"
+                                                aria-controls="collapseTwo1">
+                                                Blockchain Ecosystems
+                                            </a>
+                                        </h5>
+                                    </li>
+                                    <div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1"
+                                        data-parent="#accordion1">
+                                        <ul class="subLink">
+                                            <li><a href="blockchain_platforms.html">Blockchain Based platforms</a></li>
+                                            <li><a href="blockchain_forks.html">Blockchain Forks</a></li>
+                                            <li><a href="blockchain.html">Blockchain Nodes</a></li>
+                                            <li><a href="cryptocurrency_development.html">Cryptocurrency Development</a>
+                                            </li>
+                                            <li><a href="game.html">Game Development</a></li>
+                                        </ul>
+                                    </div>
+
+
+                                    <div class="card">
+                                        <li>
+                                            <h5 class="mb-0">
+                                                <a class="btn btn-link collapsed" href="./dApps_creation_services.html"
+                                                    data-toggle="collapse" data-target="#collapseSixx6" href="#"
+                                                    aria-expanded="false" aria-controls="collapseSixx6">
+                                                    Decentralized Applications
+                                                </a>
+                                            </h5>
+                                        </li>
+                                        <div id="collapseSixx6" class="collapse" aria-labelledby="headingTwo1"
+                                            data-parent="#accordion1">
+                                            <ul class="subLink">
+                                                <li><a href="#">Decentralized Exchanges</a></li>
+                                                <li><a href="#">Decentralized Autonomous Organization</a></li>
+                                                <li><a href="#">Staking Platforms</a></li>
+                                                <li><a href="#">Crypto Wallets</a></li>
+                                                <li><a href="blockchaindevelopment-crmerp.html">Crypto Games</a></li>
+
+                                            </ul>
+                                        </div>
+                                        <div class="card">
+                                            <li>
+                                                <h5 class="mb-0">
+                                                    <a class="btn btn-link collapsed" href="./smart_contract_dev.html"
+                                                        data-toggle="collapse" data-target="#collapseFivee5" href="#"
+                                                        aria-expanded="false" aria-controls="collapseFivee5">
+                                                        Smart Contracts
+                                                    </a>
+                                                </h5>
+                                            </li>
+                                            <div id="collapseFivee5" class="collapse" aria-labelledby="headingTwo1"
+                                                data-parent="#accordion1">
+                                                <ul class="subLink">
+                                                    <li><a href="smart_contract_dev.html">Smart Contracts</a></li>
+                                                    <li><a href="#">Stablecoin Development</a></li>
+                                                    <li><a href="./security_audit_dev_services.html">Security Audits</a>
+                                                    </li>
+                                                    <li><a href="token_distribution_services.html">Token Emission And
+                                                            Distribution</a></li>
+
+                                                </ul>
+                                            </div>
+
+                                            <div class="card">
+                                                <li>
+                                                    <h5 class="mb-0">
+                                                        <a class="btn btn-link collapsed" href="./developertool.html"
+                                                            data-toggle="collapse" data-target="#collapseFourr4"
+                                                            href="#" aria-expanded="false"
+                                                            aria-controls="collapseFourr4">
+                                                            Developer Tools
+                                                        </a>
+                                                    </h5>
+                                                </li>
+                                                <div id="collapseFourr4" class="collapse" aria-labelledby="headingTwo1"
+                                                    data-parent="#accordion1">
+                                                    <ul class="subLink">
+                                                        <li><a href="./sdk_blockchain_development.html">SDK Blockchain
+                                                                Development</a></li>
+                                                        <li><a href="./api_blockchain_dev.html">API Blockchain
+                                                                Development</a></li>
+                                                        <li><a href="./online_offline_idec_dev.html">Online Offline IDE
+                                                                Development</a></li>
+                                                        <li><a href="./plugin_blockchain_development.html">Plugin
+                                                                Blockchain Development</a></li>
+
+                                                    </ul>
+                                                </div>
+
+
+                                                <div class="card">
+                                                    <li>
+                                                        <h5 class="mb-0">
+                                                            <a class="btn btn-link collapsed"
+                                                                href="./blockchain_enterprise.html"
+                                                                data-toggle="collapse" data-target="#collapseThreee3"
+                                                                href="#" aria-expanded="false"
+                                                                aria-controls="collapseThreee3">
+                                                                Enterprise Solutions
+                                                            </a>
+                                                        </h5>
+                                                    </li>
+                                                    <div id="collapseThreee3" class="collapse"
+                                                        aria-labelledby="headingTwo1" data-parent="#accordion1">
+                                                        <ul class="subLink">
+                                                            <li><a href="#">Governance Systems</a></li>
+                                                            <li><a href="./compliance_system_dev.html">Compliance
+                                                                    Development Services</a></li>
+                                                            <li><a href="./supplychain_development_services.html">Supplychain
+                                                                    Development Services</a></li>
+                                                            <li><a href="./logistics_blockchain_development.html">Logistics
+                                                                    Blockchain Development</a></li>
+
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="card">
+                                                        <li>
+                                                            <h5 class="mb-0">
+                                                                <a class="btn btn-link collapsed"
+                                                                    href="blockchain_integration.html"
+                                                                    data-toggle="collapse" data-target="#collapseTwo2"
+                                                                    href="#" aria-expanded="false"
+                                                                    aria-controls="collapseTwo2">
+                                                                    Blockchain Integration
+                                                                </a>
+                                                            </h5>
+                                                        </li>
+                                                        <div id="collapseTwo2" class="collapse"
+                                                            aria-labelledby="headingTwo1" data-parent="#accordion1">
+                                                            <ul class="subLink">
+                                                                <li><a href="./centralized_exchange_development.html">Centralized
+                                                                        Exchange</a></li>
+                                                                <li><a href="#">Blockchain Based Micropayment
+                                                                        Services</a></li>
+                                                                <li><a href="#">Decentralized Marketplaces</a></li>
+                                                                <li><a href="blockchaindevelopment-crmerp.html">CRM/ERP
+                                                                        Blockchain Integration</a></li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <li><a href="./decentralized_crypto_wallet.html">Decentrtalised
+                                                                Crypto Wallet</a></li>
+                                                    </div>
+                                                </div>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo" href="#">
+                                Industries
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <ul class="subLink">
+                            <li><a href="#">Fintech</a></li>
+                            <li><a href="#">Regtech</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree" href="#">
+                                Solutions
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <ul class="subLink">
+                            <li><a href="startup.html">For Startups</a></li>
+                            <li><a href="enterprises.html">For Enterprises</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="false" aria-controls="collapseFour" href="#">
+                                Technology
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <ul class="subLink">
+                            <li><a href="#">Mobile Apps</a></li>
+                            <li><a href="#">Blockchain</a></li>
+                            <li><a href="#">Salesforse</a></li>
+                            <li><a href="#">Open Source</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-link" href="./about-roboto360.html">About Us</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-link" href="./career.html">Career</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="blogp.html" class="btn btn-link">Blog</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="termsandconditions.html" class="btn btn-link">Terms & Conditions</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="privacy.html" class="btn btn-link">Privacy Policy</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="btn btn-link" href="contactus.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header section end here -->
+    <!-- Hero section starts here -->
+    <div class="heroSec sectionAnim ">
+        <div class="bannerVideo">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                    <!-- <source src="videos/banner-video.mp4" type="video/mp4"> -->
+                </video>
+        </div>
+        <div class="container-fluid px-lg-5">
+            <div class="row align-items-center ">
+                <div class="col-md-6 col-sm-12">
+                    <div class="heroContent">
+                        <h1 class="text-black st" style="
+        top: 40px;
+        font-weight: 700;
+    ">Decentralized CryptoWallet</h1>
+                        <!-- <h1 class="typewrite" data-period="2000" data-type='[ "Smart", "Contracts"]'>
+                                <span class="wrap"></span>
+                            </h1> -->
+                        <!-- <span data-aos="fade-up" data-aos-duration="600">Block <br> chain</span> -->
+                        <span data-aos="fade-up" data-aos-duration="1500" class="sens sens1" style="font-size: 30px;">Development</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 mt-5 ms-2 mx-5 px-5">
+                    <img src="./images/banner_decentralized.svg" class="img-fluid sy" data-aos="zoom-in" alt="">
+                    <!-- <img src="images/123.gif" class="img-fluid" data-aos="fade-left" alt=""> -->
+                </div>
+            </div>
+        </div>
+        <div class="bannerCubeBtm st" data-aos="fade-down" data-aos-duration="1400">
+            <img src="images/title-cube-outline.svg" alt="">
+        </div>
+
+        <div class="a-line-dot ">
+            <div class="c-line-dot">
+                <div class="c-line-dot__line a-animated"></div>
+                <div class="c-line-dot__dot a-animated"></div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Hero section end here -->
+
+    <!-- solutions section start here -->
+    <section class="solutionsSec" id="solutionsSec">
+        <div class="container">
+            <div class="sectionTit titleCudeBg" data-aos="fade-down">
+                <span class="subTit">
+                        What is A Crypto Wallet</span>
+                <!-- <h1>Blockchain Development <b>Solutions</b></h1> -->
+                <p class="mr-5 mt-5">
+                    A cryptocurrency wallet is software that allows you to transfer and receive cryptocurrencies like Bitcoin.They can hold numerous tokens and coins at once,although most walletswill only support a small number of cryptocurrencies.
+
+                </p>
+                <div class="row spacer-120">
+                    <div class="col-lg-6">
+                        <img src="./images/crypto 1@2x.png" class="img12" alt="">
+                    </div>
+                    <div class="col-lg-6 wal1">
+                        <h1 class="ms-auto m-lg-n3 media">Crypto Wallets <br> In Blockchain</h1>
+                        <p class="ana">Wallets are used to store private keys,which are long hexadecimal codes that are only known by you and your wallet. So that you can spend your money,they must match with a public key
+                        </p>
+                        <p class="ana">Wallets come in a variety of shapes and sizes.They can be kept on hardware that is onlt connected to the internet while doing transactions which is one technique of "cold storage".
+                        </p>
+                        <button class="btn btn-primary ana media">About Us</button>
+                    </div>
+                </div>
+                <div class="row spacer-120">
+                    <div class="col-lg-6 wal1">
+                        <h1 class="ms-auto m-lg-n3 media">Transfer & Receive <br> Cryptocurrencies</h1>
+                        <p class="ana">A cruptocurrency wallet is software that allows you to transfer and receive cryptocurrencies like Bitcoin.They can hold numerous tokens and coins at once,although most walletswill only support
+                        </p>
+                        <p class="ana">Traditional banking apps are similar to hosted wallets. You may check your balance on numerous devices, and if you lose your phone or forget your password,your money isn't lost forever.
+                        </p>
+                        <button class="btn btn-primary ana media">About Us</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./images/wallet.svg" class="img12" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- steps section starts here  -->
+    <section>
+        <h4 class="ana1">The Steps Invloved In Creating A Wallet</h4>
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="./images/01 finger.svg" class="img22" alt="">
+                    </div>
+                    <div class="col-lg-8 mt-3">
+                        <h5>Access Your Money</h5>
+                        <p>
+                            Do you want to utilise hardware that keeps your keys offline or log into a website? It's a vital to keep in mind that not all wallets operate on all platforms
+                        </p>
+                    </div>
+                </div>
+                <div class="row sen mt-4">
+                    <div class="col-lg-4">
+                        <img src="./images/02 secure.svg" class="img23" alt="">
+                    </div>
+                    <div class="col-lg-8 mt-3 ">
+                        <h5>Reliable And Trustworthy</h5>
+                        <p>
+                            Next, check to see if the wallet you intend to use supports the cryptocurrencies you intend to invest in, and that it is reliable and trustworthy.
+                        </p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="./images/03 safe.svg" class="img22" alt="">
+                    </div>
+                    <div class="col-lg-8 mt-3">
+                        <h5>Safe And Secure</h5>
+                        <p>
+                            It is a good idea to make a backup of your password private key and keep it somewhere else.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <img src="./images/a2c2abad-64c0-407c-8be5-099b23d37d1a.svg" class="img-fluid mt-5" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- next section  -->
+    <section>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="./images/parallax-bg8.jpg" class="imt" alt="">
+            </div>
+            <div class="col-lg-6">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style=" background-color: #0799A8;">
+                    <div class="carousel-inner" style="height: 32em;">
+                        <div class="carousel-item active " style="background-color: #0799A8;">
+                            <div>
+                                <h6 class="ait">Key featuresof Roboto360</h6>
+                                <h4 class="ait1">Cryptocurrency Wallet System</h4>
+                                <p class="ait2">Roboto360 is a leading mobile banking solution that include a powerful bitcoin wallet with various advanced features</p>
+                                <button class="btn btn-primary ait3 mt-5">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item " style="background-color: #0799A8;">
+                            <div>
+                                <h6 class="ait">Key featuresof Roboto360</h6>
+                                <h4 class="ait1">Conversion rates</h4>
+                                <p class="ait2">You can give your users real-time access to conversion rates and cryptocurrency values with Roboto360.</p>
+                                <button class="btn btn-primary ait3 mt-5">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-color: #0799A8;">
+                            <div>
+                                <h6 class="ait">Key featuresof Roboto360</h6>
+                                <h4 class="ait1">2-factor authentication</h4>
+                                <p class="ait2">With the help of 2-factor authentication, you can ensure that all of your customers' accounts are secure.</p>
+                                <button class="btn btn-primary ait3 mt-5">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-color: #0799A8;">
+                            <div>
+                                <h6 class="ait">Key featuresof Roboto360</h6>
+                                <h4 class="ait1">Transaction history</h4>
+                                <p class="ait2">Allow your users to see all of their previous transactions using criteria such daily, weekly, and monthly.</p>
+                                <button class="btn btn-primary ait3 mt-5">Get Started</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" style="background-color: #0799A8;">
+                            <div>
+                                <h6 class="ait">Key featuresof Roboto360</h6>
+                                <h4 class="ait1">Wallet backup</h4>
+                                <p class="ait2">The wallet backup feature in Roboto360 protects your users' cryptocurrency from software theft and failure.</p>
+                                <button class="btn btn-primary ait3 mt-5">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style=" background-color: #0799A8;border: none;">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style=" background-color:#0799A8;border:none">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden"></span>
+                        </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card section starts  -->
+
+    <h3 class="hi1">How Does a Cryptocurrency Wallet Work?</h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card hyui" style="background-image: url(./images/bg1.png); border:none;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card px-3 py-3 mt-3" data-aos="fade-up" data-aos-duration="900" data-delay="400">
+                                    <img src="./images/5.svg" style="width: 100px;" class="card-img-top" alt="...">
+                                    <h5 class="card-title">Generation Of Wallets</h5>
+                                    <p class="card-text">Wallets are pieces of software that allow you to check you bitcoin holdings and conduct transactions. Each wallet type is a little different,"public addresses."
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card px-3 py-3 mt-3" data-aos="fade-up" data-aos-duration="900" data-delay="400">
+                                    <img src="./images/5.svg" style="width: 100px;" class="card-img-top" alt="...">
+                                    <h5 class="card-title">Generation Of Wallets</h5>
+                                    <p class="card-text">Wallets are pieces of software that allow you to check you bitcoin holdings and conduct transactions. Each wallet type is a little different,"public addresses."
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card px-3 py-3 mt-3" data-aos="fade-up" data-aos-duration="900" data-delay="400">
+                                    <img src="./images/5.svg" style="width: 100px;" class="card-img-top" alt="...">
+                                    <h5 class="card-title">Generation Of Wallets</h5>
+                                    <p class="card-text">Wallets are pieces of software that allow you to check you bitcoin holdings and conduct transactions. Each wallet type is a little different,"public addresses."
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card px-3 py-3 mt-3" data-aos="fade-up" data-aos-duration="900" data-delay="400">
+                                    <img src="./images/5.svg" style="width: 100px;" class="card-img-top" alt="...">
+                                    <h5 class="card-title">Generation Of Wallets</h5>
+                                    <p class="card-text">Wallets are pieces of software that allow you to check you bitcoin holdings and conduct transactions. Each wallet type is a little different,"public addresses."
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card px-3 py-3 mt-3" data-aos="fade-up" data-aos-duration="900" data-delay="400">
+                                    <img src="./images/5.svg" style="width: 100px;" class="card-img-top" alt="...">
+                                    <h5 class="card-title">Generation Of Wallets</h5>
+                                    <p class="card-text">Wallets are pieces of software that allow you to check you bitcoin holdings and conduct transactions. Each wallet type is a little different,"public addresses."
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card px-3 py-3 mt-3" data-aos="fade-up" data-aos-duration="900" data-delay="400">
+                                    <img src="./images/5.svg" style="width: 100px;" class="card-img-top" alt="...">
+                                    <h5 class="card-title">Generation Of Wallets</h5>
+                                    <p class="card-text">Wallets are pieces of software that allow you to check you bitcoin holdings and conduct transactions. Each wallet type is a little different,"public addresses."
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- img-carouse sec starts  -->
+    <div style="background-image: url(./images/homepage-11-slider-img-2.jpg); height: 50em; width: auto;">
+        <div class="card" style="width: 18em; background-color:transparent;margin-left: 42px;">
+            <div class="card carq" style="background-color: #0799A8;opacity: 90%; margin-top: 100px; color: white;">
+                <div class="container">
+                    <div class="card-title ml-5 mt-5">
+
+                    </div>
+                    <div class="card-body quee">
+                        <h5>Skilled Blockchain <br> Engineers and <br> defi Enthusiasts</h5>
+                        <p class="mt-4">
+                            Crypto wallets are an integral part of using bitcoin and other cryptocurrencies. They are one of the basicpieces of infrastructure that make it possible to send and recieve funds through blockchain networks. We create goods that are tailored to our target
+                            demographic. A well-thoughtout-plan guarentees that development and development goes smoothgly and quickly. <br> <br>
+                        </p>
+                        <button class="btn btn-primary" style="background-color: white;color: #0799A8;border: none; border-radius: 50px; ">
+                        Explore Services
+                    </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- accordian sec starts  -->
+    <br><br>
+    <h3 class="fre">Frequently Asked Questions</h3>
+    <div class="container">
+        <button class="accordion huy ">What is a cryptocurrency wallet?</button>
+        <div class="panel">
+            <p>A cryptocurrency wallet is a piece of software that maintains private and public keys and interact with different blockchains to allow user to transfer and recieve money while also keeping track of their balance.
+            </p>
+        </div>
+
+        <button class="accordion huy">What is a cryptocurrency desktop wallet?</button>
+        <div class="panel">
+            <p>This wallet must be downloaded and installed on a computer or laptop. They can only be accessed from the computer where they were downloaded. Desktop wallets provide one of the highest degrees of protection, but if your computer is hacked
+                or infected by a virus, you may lose all of your cash.</p>
+        </div>
+
+        <button class="accordion huy">What is a cryptocurrency online wallet?</button>
+        <div class="panel">
+            <p>This form of wallet is cloud-based and can be accessed from any computer in any location. Online wallets, while more easy to use, store your private keys online and are controlled by a third party, making them more vulnerable to hacking and
+                theft.
+
+            </p>
+        </div>
+        <button class="accordion huy">What is a cryptocurrency mobile wallet?</button>
+        <div class="panel">
+            <p>This form of wallet works with your phone's software and is convenient because it can be used everywhere, including retail locations. Because of the limited space available on mobile devices, mobile wallets are typically significantly smaller
+                and simpler than desktop wallets.
+
+            </p>
+        </div>
+        <button class="accordion huy">What is a hardware wallet?
+</button>
+        <div class="panel">
+            <p> This wallet is different from software wallets in that it stores a user's private keys on a hardware device like as a USB. Despite the fact that hardware wallets conduct transactions online, they are stored offline, providing additional security.
+                Hardware wallets can work with a variety of web interfaces and support a variety of currencies, depending on which one you choose. Furthermore, completing a transaction is simple. Users just connect their device to any computer or device
+                with an internet connection, enter a pin, transmit currency, and confirm. Hardware wallets let you to quickly transact while keeping your funds offline and out of harm's way.
+            </p>
+        </div>
+        <button class="accordion huy">What is a paper wallet?
+</button>
+        <div class="panel">
+            <p>
+                This type of wallet is easy to use and provide a very high level of security. While the term paper wallet can simply refer to a physical copy or printout of your public and private keys, it can also refer to a piece of software that is used to securely
+                generate a pair of keys which are then printed.
+            </p>
+        </div>
+    </div>
+
+    <!-- last sec  -->
+    <!-- <div class="testimonial_section">
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-md-12">
+                        <div class="testimonial_box">
+                            <div class="testimonial_container">
+                                <div class="background_layer"></div>
+                                <div class="layer_content">
+                                    <div class="testimonial_owlCarousel owl-carousel">
+                                        <div class="testimonials" style="margin-left: 105px;">
+                                            <div class="testimonial_content">
+                                                <div class="testimonial_caption text-justify">
+                                                    <h1 style="color:#16BECF;">What's Client<br> Say About Us</h1>
+                                                    <img src="images/cube-divider-smrt1.svg" style="width: 244px;
+        height: 57px;
+        margin-left: 2px;">
+                                                </div>
+                                                <p class="text-justify">We provide the best smart contract service globally and have gained our skills in creating top-tier private blockchains that can improve and streamline the workflow of a business.</p>
+                                                <h6 class="text-justify" style="margin-top: 50px;">Lisa Lennon</h6>
+                                                <h6 class="text-justify"><strong>Defi Expert</strong></h6>
+                                            </div>
+                                            <div class="images_box">
+                                                <div class="testimonial_img" style="background-color: white;">
+                                                    <img src="images/Combined-Shape-smart1.svg" style="    margin-top: -23px;">
+                                                    <img src="images/Rectangle-2-client.svg" style="width: 58%;">
+                                                    <img src="images/Image-client.svg" style="margin-top: -348px;width: 403px; ">
+                                                    <img src="images/CombinedShape _CombinedShapMask.svg" style="margin-top:-100px;margin-left:231px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials">
+                                            <div class="testimonial_content">
+                                                <div class="testimonial_caption text-justify">
+                                                    <h1 style="color:#16BECF;">What's Client<br> Say About Us</h1>
+                                                    <img src="images/cube-divider-smrt1.svg" style="width: 244px;
+        height: 57px;
+        margin-left: 2px;">
+                                                </div>
+                                                <p class="text-justify">Roboto360 went beyond all the expectations and the developer always went extra mile to help us meet the deadlines and accomplish more. The end product had a very high quality and we were confident delivering
+                                                    it to the end users.</p>
+                                                <h6 class="text-justify" style="margin-top: 50px;">Lisa Lennon</h6>
+                                                <h6 class="text-justify"><strong>Defi Expert</strong></h6>
+                                            </div>
+                                            <div class="images_box">
+                                                <div class="testimonial_img">
+                                                    <img src="images/Combined-Shape-smart1.svg" style="    margin-top: -23px;">
+                                                    <img src="images/Rectangle-2-client.svg" style="width: 58%;">
+                                                    <img src="images/Image-client.svg" style="margin-top: -348px;width: 403px;">
+                                                    <img src="images/CombinedShape _CombinedShapMask.svg" style="margin-top:-100px;margin-left:231px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonials">
+                                            <div class="testimonial_content">
+                                                <div class="testimonial_caption text-justify">
+                                                    <h1 style="color:#16BECF;">What's Client<br> Say About Us</h1>
+                                                    <img src="images/cube-divider-smrt1.svg" style="width: 244px;
+        height: 57px;
+        margin-left: 2px;">
+                                                </div>
+                                                <p class="text-justify">All required features were implemented within the scope, timelines, and budget thanks to effective project management. The project manager dove deeply into the project and performed more like a colleague.</p>
+                                                <h6 class="text-justify" style="margin-top: 50px;">Lisa Lennon</h6>
+                                                <h6 class="text-justify"><strong>Defi Expert</strong></h6>
+    
+                                            </div>
+                                            <div class="images_box">
+                                                <div class="testimonial_img">
+                                                    <img src="images/Combined-Shape-smart1.svg" style="    margin-top: -23px;">
+                                                    <img src="images/Rectangle-2-client.svg" style="width: 58%;">
+                                                    <img src="images/Image-client.svg" style="margin-top: -348px;width: 403px;">
+                                                    <img src="images/CombinedShape _CombinedShapMask.svg" style="margin-top:-100px;margin-left:231px;"> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    <!-- -------------start of  section10---------------------------------- -->
+    <div class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="MiCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-sm-6 div-sm-start text-center">
+                                        <img src="images/attachclient.svg" class="mt-xl-5" id="part7carimg1"
+                                            alt="clientslide">
+                                    </div>
+                                    <div class="col-sm-6 div-sm-end  mt-lg-5 px-3 pb-5">
+                                        <h5 class="text-info fw-bold fs-3 py-sm-3 ">What's Client Say About us</h5>
+                                        <p class="text">We provide the best smart contract service globally and have
+                                            gained our skills in creating top-tier private blockchains that can improve
+                                            and streamline
+                                            the workflow of a business.Roboto360 went beyond all the expectations and
+                                            the developer
+                                            always went the extra mile to help us meet the deadlines and accomplish
+                                            more.The end product
+                                            had a very high quality and we were confident delivering it to the
+                                            end-users. All required
+                                            features were implemented within the scope, timelines, and budget thanks to
+                                            effective
+                                            project management. The project manager dove deeply into the project and
+                                            performed more like
+                                            a colleague.</p>
+                                        <div class="pb-5 wrt">Lisa Lennon<br>
+                                            <b class="fw-bold pb-5">Defi Expert</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6 div-sm-start text-center">
+                                        <img src="images/attachclient.svg" class="mt-xl-5" id="part7carimg1"
+                                            alt="clientslide">
+                                    </div>
+                                    <div class="col-sm-6 div-sm-end  mt-lg-5 px-3 pb-5">
+                                        <h5 class="text-info fw-bold fs-3 py-sm-3">What's Client Say About us</h5>
+                                        <p  class="text">We provide the best smart contract service globally and have
+                                            gained our skills in creating top-tier private blockchains that can improve
+                                            and streamline
+                                            the workflow of a business.Roboto360 went beyond all the expectations and
+                                            the developer
+                                            always went the extra mile to help us meet the deadlines and accomplish
+                                            more.The end product
+                                            had a very high quality and we were confident delivering it to the
+                                            end-users. All required
+                                            features were implemented within the scope, timelines, and budget thanks to
+                                            effective
+                                            project management. The project manager dove deeply into the project and
+                                            performed more like
+                                            a colleague.</p>
+                                        <div class="pb-5 wrt">Lisa Lennon<br>
+                                            <b class="fw-bold pb-5">Defi Expert</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-sm-6 div-sm-start text-center">
+                                        <img src="images/attachclient.svg" class="mt-xl-5" id="part7carimg1"
+                                            alt="clientslide">
+                                    </div>
+                                    <div class="col-sm-6 div-sm-end  mt-lg-5 px-3 pb-5">
+                                        <h5 class="text-info fw-bold fs-3 py-sm-3">What's Client Say About us</h5>
+                                        <p  class="text">We provide the best smart contract service globally and have
+                                            gained our skills in creating top-tier private blockchains that can improve
+                                            and streamline
+                                            the workflow of a business.Roboto360 went beyond all the expectations and
+                                            the developer
+                                            always went the extra mile to help us meet the deadlines and accomplish
+                                            more.The end product
+                                            had a very high quality and we were confident delivering it to the
+                                            end-users. All required
+                                            features were implemented within the scope, timelines, and budget thanks to
+                                            effective
+                                            project management. The project manager dove deeply into the project and
+                                            performed more like
+                                            a colleague.</p>
+                                        <p></p>
+                                        <div class="pb-5 wrt">Lisa Lennon<br>
+                                            <b class="fw-bold pb-5">Defi Expert</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev carousel-controls " href="#MiCarousel" role="button"
+                            data-bs-slide="prev" style="left:39%;">
+                            <i class="fas fa-chevron-circle-left text-info fs-3"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next carousel-controls " href="#MiCarousel" role="button"
+                            data-bs-slide="next" style="left:calc(39% + 20px + 10px);">
+                            <i class="fas fa-chevron-circle-right text-info fs-3"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------end----------------------------------------------- -->
+  <!-- ---start of part9----- -->
+  <footer>
+    <div class="container cptySec">
+        <div class="row text-center text-sm-start">
+            <div class="col-lg-3 col-sm-3">
+                <div class="footTit mt-2" data-aos="fade-up" data-aos-duration="400">Address
+                    <div><img src="images/cube-divider-sm.svg" alt=""></div>
+                </div>
+                <div class="footerCont" data-aos="fade-up" data-aos-duration="500">
+                    <p class="robofooth3">T0,Unit G2,G10</p>
+                    <p class="robofooth3">Expressway Studios</p>
+                    <p class="robofooth3">1 Dock Road</p>
+                    <p class="robofooth3">London E16 1AG</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-3">
+                <div class="footTit mt-4" data-aos="fade-up" data-aos-duration="600">Contact
+                    <div><img src="images/cube-divider-sm.svg" alt=""></div>
+                </div>
+                <div class="footerCont" data-aos="fade-up" data-aos-duration="700">
+                    <p class="mb-2">Tel: <span class="primeLbl">+44 12345 67890</span></p>
+                    <p>E-mail: <a href="" class="link">info@roboto.com</a></p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-2" data-aos="fade-up" data-aos-duration="800">
+                <div class="footTit mt-4">Follow
+                    <div><img src="images/cube-divider-sm.svg" alt=""></div>
+                </div>
+                <div class="footerCont" data-aos="fade-up" data-aos-duration="900">
+                    <a href="" class="footLink">Twitter</a>
+                    <a href="" class="footLink">LinkedIn</a>
+                    <a href="" class="footLink">Facebook</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-4" data-aos="fade-up" data-aos-duration="1000">
+                <div class="footTit mt-4">Subscribe
+                    <div><img src="images/cube-divider-sm.svg" alt=""></div>
+                </div>
+                <p data-aos="fade-up" data-aos-duration="600">Lorem ipsum dolor sit amet, consetetur sadipscing
+                    elitr</p>
+                <div data-aos="fade-up" data-aos-duration="800">
+                    <!-- <div class="input-group inputGrp">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="" aria-describedby="basic-addon1">
+                        <div class="input-group-append">
+                            <button class="btn" type="button">Send</button>
+                        </div>
+                    </div> -->
+                    <div class="text-center">
+                        <i class="fab fa-twitter mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+                        <i class="fab fa-linkedin mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+                        <i class="fab fa-facebook mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+                        <i class="fab fa-google mr-xl-3 mr-xxl-3 mr-lg-3 mr-md-3 mr-3"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-md-5"><img src="images/cube-divider-large.svg" class="cubeDivLg" alt=""></div>
+        <div class="row mt-4">
+            <div class="col-md-12 text-center">
+                <div class="cptyLabel d-block">
+                    Copyright © Roboto360 Website 2021
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ----end---------------- -->
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap Popper script -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap script -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Animation AOS script -->
+    <script src="js/aos.js"></script>
+    <!-- Owl carousal script -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- parallax animation script -->
+    <script src="js/parallax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+
+    <!-- Custom script -->
+    <script src="js/script.js"></script>
+    <script>
+        $(document).ready(function() {
+            // function openNav() {
+            //     document.getElementById("sidebar").style.width = "100%";
+            // }
+            // ('#menuToggler').click(function(){
+            //     alert('fsdfds');
+            //     document.getElementById("sidebar").style.width = "100%";
+            // });
+            $("#menuToggler").click(function() {
+                $(".sidebar").css("margin-left", "0");
+            });
+            $(".sidebar-content > ul > li > a").click(function() {
+                $(".sideSubLink").slideToggle(1000);
+            });
+            $(".closebtn").click(function() {
+                $(".sidebar").css("margin-left", "-300px");
+            });
+
+            // gsap.from(".fromLeft", {
+            //     stagger: .2,
+            //     x: 400,
+            //     duration: 1,
+            //     ease: Back.easeOut.config(1.7)
+            // })
+            // gsap.from(".fromRight", {
+            //     stagger: .2,
+            //     x: -400,
+            //     duration: 1,
+            //     ease: Back.easeOut.config(1.7)
+            // })
+            gsap.from(".fromLeft", {
+                scrollTrigger: "#secTrigger",
+                opacity: 0,
+                x: 400,
+                duration: 1
+            });
+            gsap.from(".fromRight", {
+                scrollTrigger: "#secTrigger",
+                opacity: 0,
+                x: -400,
+                duration: 1
+            });
+            gsap.from('midContent', {
+                opacity: 1,
+                duration: 0.1
+            });
+            gsap.from(".block-1", {
+                scrollTrigger: {
+                    trigger: servicesSec,
+                    start: 'top 75%'
+                },
+                opacity: 0,
+                x: 300,
+                y: 300,
+                duration: 1
+            });
+            gsap.from(".block-2", {
+                scrollTrigger: {
+                    trigger: servicesSec,
+                    start: 'top 75%'
+                },
+                opacity: 0,
+                x: 0,
+                y: 300,
+                duration: 2
+            });
+            gsap.from(".block-3", {
+                scrollTrigger: {
+                    trigger: servicesSec,
+                    start: 'top 75%'
+                },
+                opacity: 0,
+                x: -300,
+                y: 300,
+                duration: 3
+            });
+            gsap.from(".block-4", {
+                scrollTrigger: {
+                    trigger: servicesSec,
+                    start: 'top 75%'
+                },
+                opacity: 0,
+                x: 300,
+                y: -300,
+                duration: 4
+            });
+            gsap.from(".block-5", {
+                scrollTrigger: {
+                    trigger: servicesSec,
+                    start: 'top 75%'
+                },
+                opacity: 0,
+                x: 0,
+                y: -300,
+                duration: 5
+            });
+            gsap.from(".block-6", {
+                scrollTrigger: {
+                    trigger: servicesSec,
+                    start: 'top 75%'
+                },
+                opacity: 0,
+                x: -300,
+                y: -300,
+                duration: 6
+            });
+
+
+            gsap.set('.a-animated', {
+                'visibility': 'visible'
+            });
+            gsap.utils.toArray(".a-line-dot").forEach(function(section) {
+                var line = section.getElementsByClassName('c-line-dot__line');
+                gsap.timeline({
+                        scrollTrigger: {
+                            trigger: section,
+                            start: 'top 75%',
+                            toggleActions: 'play none none none'
+                        }
+                    })
+                    .from(line, {
+                        duration: 1,
+                        scale: 0,
+                        transformOrigin: 'center top'
+                    })
+            });
+
+
+        });
+
+
+
+
+
+
+
+
+
+        $('.testimonial_owlCarousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            dots: false,
+            nav: true,
+            autoplay: false,
+            smartSpeed: 3000,
+            autoplayTimeout: 4000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+        $(".ot-testimonials-slider").owlCarousel({
+            nav: true,
+            dots: false,
+            loop: true,
+            navText: ['<i class="flaticon-back"></i>', '<i class="flaticon-right-arrow-1"></i>'],
+            responsive: {
+                1000: {
+                    items: 2
+                },
+                767: {
+                    nav: false,
+                    dots: true,
+                    items: 2
+                },
+                0: {
+                    nav: false,
+                    dots: true,
+                    items: 1
+                }
+            }
+        });
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
